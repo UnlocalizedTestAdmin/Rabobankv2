@@ -30,7 +30,7 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
 1. If human unblocked something above → integrate it (tracking links, form endpoint, domain).
 2. Content backlog (one page/day, Dutch, must contain something an AI answer can't give —
    a table with current numbers, a calculation, or a decision checklist):
-   - [ ] Terugleverkosten per leverancier: vergelijkingstabel (update monthly!)
+   - [x] Terugleverkosten per leverancier: vergelijkingstabel (update monthly! — laatst: aug 2026)
    - [ ] Dynamisch energiecontract + thuisbatterij: hoe werkt het, voor wie
    - [ ] Thuisbatterij subsidie: stand van zaken NL (en BE premies per gewest)
    - [ ] Beste thuisbatterijen 2026: vergelijking op €/kWh, garantie, chemie
@@ -38,7 +38,7 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
    - [ ] Belgische variant-pagina's (premies, digitale meter, capaciteitstarief)
    - [ ] FAQ-pagina (schema.org FAQ markup) per calculator
 3. Technical backlog:
-   - [ ] sitemap.xml + robots.txt
+   - [x] sitemap.xml + robots.txt (paths relative — make absolute once domain exists)
    - [ ] Schema.org markup (WebApplication voor calculators, FAQPage)
    - [ ] Open Graph tags + social preview
    - [ ] Cookieless analytics (e.g. GoatCounter free tier — needs human signup, ask once)
@@ -50,3 +50,10 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
 
 - **2026-08-07**: Research report delivered. Site v1 built (7 pages, 2 calculators, lead funnel,
   privacy). Pages workflow added. Daily routine created. Human checklist published (6 items).
+- **2026-08-08** (daily session 1): Added `terugleverkosten-per-leverancier.html` — comparison
+  table (Eneco ±€0,18/kWh, Essent staffel ±€276/jr, Vattenfall ±€215/jr, Budget Energie
+  ±€0,11/kWh, dynamische leveranciers €0) + mini cost calculator + 7 savings tips; linked from
+  homepage and salderen article. Added sitemap.xml + robots.txt. Note: direct fetches of Dutch
+  comparison sites are blocked by the egress proxy — figures sourced via search results; refresh
+  monthly. All 6 human blockers still open (Pages, domain, form endpoint, Daisycon/Solvari/
+  Slimster signups, lead buyers, KVK). Next up: dynamisch contract + thuisbatterij article.
