@@ -31,7 +31,7 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
 2. Content backlog (one page/day, Dutch, must contain something an AI answer can't give —
    a table with current numbers, a calculation, or a decision checklist):
    - [x] Terugleverkosten per leverancier: vergelijkingstabel (update monthly! — laatst: aug 2026)
-   - [ ] Dynamisch energiecontract + thuisbatterij: hoe werkt het, voor wie
+   - [x] Dynamisch energiecontract + thuisbatterij: hoe werkt het, voor wie
    - [ ] Thuisbatterij subsidie: stand van zaken NL (en BE premies per gewest)
    - [ ] Beste thuisbatterijen 2026: vergelijking op €/kWh, garantie, chemie
    - [ ] Thuisaccu en verzekering/brandveiligheid: waar je op moet letten
@@ -57,3 +57,9 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   comparison sites are blocked by the egress proxy — figures sourced via search results; refresh
   monthly. All 6 human blockers still open (Pages, domain, form endpoint, Daisycon/Solvari/
   Slimster signups, lead buyers, KVK). Next up: dynamisch contract + thuisbatterij article.
+- **2026-08-09** (daily session 2): Added `dynamisch-contract-thuisbatterij.html` — explains the
+  two battery revenue models (solar-shift vs price-trading), 1 May 2026 example (€0,74/kWh
+  intraday spread), realistic yields (€200–280/jr no solar; €400–700/jr with solar post-2027;
+  debunks €1.200 vendor claims), negative-price misconception, plus a trading-income mini
+  calculator. Cross-linked from homepage, zin-of-onzin article and sitemap. All 6 human blockers
+  still open. Next up: thuisbatterij subsidie NL + BE premies page.
