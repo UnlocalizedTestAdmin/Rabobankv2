@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Subsidie thuisbatterij 2026: Nederland (ISDE) en België per gewest | BatterijWijzer</title>
+<meta name="description" content="Welke subsidie of premie krijg je in 2026 voor een thuisbatterij? Nederland: ISDE €250/kWh en btw-regels. België: stand van zaken in Vlaanderen, Wallonië en Brussel. Met checker.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <a class="logo" href="index.html">🔋 BatterijWijzer</a>
+  <nav>
+    <a href="thuisbatterij-calculator.html">Thuisbatterij-calculator</a>
+    <a href="zonnepanelen-terugverdientijd.html">Zonnepanelen-calculator</a>
+    <a href="salderen-stopt.html">Salderen stopt: uitleg</a>
+    <a href="offerte.html">Gratis offertes</a>
+  </nav>
+</header>
+<main>
+  <h1>Subsidie voor een thuisbatterij in 2026: wat krijg je nog?</h1>
+  <p class="lead">Nederland heeft sinds 1 januari 2026 eindelijk een landelijke batterijsubsidie; in België zijn de premies juist afgebouwd, maar zijn er btw-voordelen. Hieronder de stand van zaken per land en gewest (peildatum augustus 2026), plus een checker voor jouw situatie.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">✅ Snelle check: waar heb jij recht op?</h2>
+    <label>Waar woon je?
+      <select id="c-regio">
+        <option value="nl">Nederland</option>
+        <option value="vl">België — Vlaanderen</option>
+        <option value="wa">België — Wallonië</option>
+        <option value="br">België — Brussel</option>
+      </select>
+    </label>
+    <label>Plaats je de batterij samen met nieuwe zonnepanelen (≥ 3.000 Wp)?
+      <select id="c-panelen"><option value="ja">Ja</option><option value="nee">Nee</option></select>
+    </label>
+    <label>Is de woning ouder dan 10 jaar?
+      <select id="c-oud"><option value="ja">Ja</option><option value="nee">Nee</option></select>
+    </label>
+    <button onclick="check()">Toon mijn regelingen</button>
+    <div class="result" id="resultaat"><ul id="r-lijst" style="margin:0 0 0 1.1rem;padding:0"></ul></div>
+  </div>
+
+  <h2>Nederland: ISDE-subsidie én btw-voordeel</h2>
+  <table>
+    <tr><th>Regeling</th><th>Wat</th><th>Voorwaarden</th></tr>
+    <tr><td><strong>ISDE thuisbatterij</strong> (nieuw per 1-1-2026)</td><td><strong>€250 per kWh</strong> bruikbare capaciteit, max <strong>€1.500</strong> per huishouden</td><td>Alleen in combinatie met minimaal <strong>3.000 Wp nieuwe zonnepanelen</strong>; aanvragen via RVO ná installatie</td></tr>
+    <tr><td><strong>0% btw</strong></td><td>Geen 21% btw op batterij + installatie</td><td>Batterij geïnstalleerd in combinatie met zonnepanelen (regeling sinds 2025, ongewijzigd in 2026)</td></tr>
+    <tr><td>Losse batterij (zonder panelen)</td><td>Nu: 21% btw, geen ISDE</td><td>Let op: de Tweede Kamer nam op 10 juni 2026 een motie aan om 0% btw ook voor losse batterijen te onderzoeken; uitsluitsel wordt rond Prinsjesdag (17 september 2026) verwacht</td></tr>
+  </table>
+  <p>Reken het effect door: €1.500 ISDE op een batterij van ±€3.900 haalt zomaar 1,5–2 jaar van de <a href="thuisbatterij-calculator.html">terugverdientijd</a> af. Sommige provincies en gemeenten hebben daarnaast eigen (kleine) regelingen — check het loket van je gemeente.</p>
+
+  <h2>België: premies weg, btw-voordeel blijft</h2>
+  <table>
+    <tr><th>Gewest</th><th>Thuisbatterij</th><th>Zonnepanelen</th></tr>
+    <tr><td><strong>Vlaanderen</strong></td><td>Geen premie meer. De Fluvius-premie sloot voor nieuwe aanvragen op 1 december 2024 (loket definitief dicht per 1 juli 2026)</td><td>Geen premie meer voor nieuwe installaties</td></tr>
+    <tr><td><strong>Wallonië</strong></td><td>Geen premie</td><td>Geen klassieke premie; wel gedeeltelijke terugbetaling van het prosumententarief (momenteel ±54%)</td></tr>
+    <tr><td><strong>Brussel</strong></td><td>Geen premie; wel renteloze of goedkope leningen via Homegrade</td><td>Groenestroomcertificaten, gedurende 10 jaar — afhankelijk van installatiegrootte honderden euro's per jaar</td></tr>
+  </table>
+  <p><strong>Voor alle gewesten:</strong> laat je de batterij plaatsen door een erkende installateur in een woning ouder dan 10 jaar, dan geldt het verlaagde btw-tarief van <strong>6% in plaats van 21%</strong> — op een gemiddelde batterij een voordeel van honderden euro's. In Vlaanderen blijft de businesscase verder leunen op het capaciteitstarief (piekafvlakking) en het vermijden van injectie tegen lage vergoedingen.</p>
+
+  <h2>Drie praktische waarschuwingen</h2>
+  <ol>
+    <li><strong>Vraag ISDE pas aan als de installatie voldoet.</strong> De 3.000 Wp-eis geldt voor <em>nieuwe</em> panelen bij dezelfde aanvraag — een batterij bij bestáánde panelen valt er nu buiten.</li>
+    <li><strong>Wacht je op de btw-uitspraak?</strong> Overweeg je in NL een losse batterij (zonder nieuwe panelen), dan kan het lonen de Prinsjesdag-besluitvorming (17 september 2026) af te wachten: 21% → 0% scheelt ±€800 op een gemiddelde batterij.</li>
+    <li><strong>Laat de subsidie het rekensommetje niet maken.</strong> Een batterij die zonder subsidie onrendabel is, wordt met €1.500 zelden ineens een topinvestering — <a href="thuisbatterij-calculator.html">reken eerst de basis door</a> en zie subsidie als bonus.</li>
+  </ol>
+
+  <div class="notice">Regelingen veranderen snel; bedragen en voorwaarden zijn de stand van augustus 2026. Controleer vóór aankoop de actuele voorwaarden bij RVO (NL), Fluvius/Vlaanderen, je gewest (BE) of gemeente. <a href="offerte.html">Installateurs</a> rekenen subsidies doorgaans ook voor je uit — vraag ernaar in de offerte.</div>
+
+<script>
+function check() {
+  const regio = document.getElementById('c-regio').value;
+  const panelen = document.getElementById('c-panelen').value === 'ja';
+  const oud = document.getElementById('c-oud').value === 'ja';
+  const items = [];
+  if (regio === 'nl') {
+    if (panelen) {
+      items.push('<strong>ISDE-subsidie:</strong> €250 per kWh, tot €1.500 — aanvragen via RVO na installatie.');
+      items.push('<strong>0% btw</strong> op batterij en installatie (combinatie met zonnepanelen).');
+    } else {
+      items.push('<strong>Geen ISDE</strong> (die vereist ≥3.000 Wp nieuwe panelen) en <strong>21% btw</strong>.');
+      items.push('<strong>Tip:</strong> rond Prinsjesdag (17 sept 2026) komt er mogelijk duidelijkheid over 0% btw voor losse batterijen — even wachten kan ±€800 schelen.');
+    }
+    items.push('Check ook het subsidieloket van je eigen gemeente/provincie voor lokale regelingen.');
+  } else {
+    items.push('<strong>Geen gewestelijke batterijpremie</strong> meer in 2026.');
+    if (oud) items.push('<strong>6% btw in plaats van 21%</strong> bij plaatsing door een erkende installateur (woning ouder dan 10 jaar) — voordeel van honderden euro’s.');
+    else items.push('Woning jonger dan 10 jaar: <strong>21% btw</strong>, geen verlaagd tarief.');
+    if (regio === 'br') items.push('<strong>Brussel:</strong> renteloze/goedkope lening mogelijk via Homegrade; voor zonnepanelen gelden groenestroomcertificaten.');
+    if (regio === 'wa') items.push('<strong>Wallonië:</strong> gedeeltelijke terugbetaling van het prosumententarief (±54%) voor zonnepaneelbezitters.');
+    if (regio === 'vl') items.push('<strong>Vlaanderen:</strong> businesscase draait op het capaciteitstarief (piek afvlakken) en meer eigen verbruik — geen premies.');
+  }
+  document.getElementById('r-lijst').innerHTML = items.map(i => '<li>' + i + '</li>').join('');
+  document.getElementById('resultaat').classList.add('show');
+}
+</script>
+</main>
+<footer class="site">
+  <p>BatterijWijzer is een onafhankelijke rekentool. Uitkomsten zijn indicatief; aan berekeningen kunnen geen rechten worden ontleend.</p>
+  <p><a href="privacy.html">Privacyverklaring</a> · <a href="offerte.html">Offerte aanvragen</a></p>
+</footer>
+</body>
+</html>

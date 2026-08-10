@@ -32,7 +32,8 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
    a table with current numbers, a calculation, or a decision checklist):
    - [x] Terugleverkosten per leverancier: vergelijkingstabel (update monthly! — laatst: aug 2026)
    - [x] Dynamisch energiecontract + thuisbatterij: hoe werkt het, voor wie
-   - [ ] Thuisbatterij subsidie: stand van zaken NL (en BE premies per gewest)
+   - [x] Thuisbatterij subsidie: stand van zaken NL (en BE premies per gewest) — refresh after
+         Prinsjesdag 17 sep 2026 (btw-besluit losse batterijen!)
    - [ ] Beste thuisbatterijen 2026: vergelijking op €/kWh, garantie, chemie
    - [ ] Thuisaccu en verzekering/brandveiligheid: waar je op moet letten
    - [ ] Belgische variant-pagina's (premies, digitale meter, capaciteitstarief)
@@ -63,3 +64,11 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   debunks €1.200 vendor claims), negative-price misconception, plus a trading-income mini
   calculator. Cross-linked from homepage, zin-of-onzin article and sitemap. All 6 human blockers
   still open. Next up: thuisbatterij subsidie NL + BE premies page.
+- **2026-08-10** (daily session 3): Added `subsidie-thuisbatterij.html` — NL: new ISDE battery
+  subsidy per 1-1-2026 (€250/kWh, max €1.500, requires ≥3.000 Wp new panels), 0% btw with
+  panels, pending Prinsjesdag decision on 0% btw for standalone batteries (motion 10 jun 2026);
+  BE: no premies anywhere (Fluvius closed), 6% btw renovation rate, Homegrade loans (BR),
+  prosumententarief refund ±54% (WA), groenestroomcertificaten (BR). Includes interactive
+  region/situation checker. Cross-linked + sitemap. IMPORTANT date: refresh page after
+  17 sep 2026 (Prinsjesdag). All 6 human blockers still open. Next up: beste thuisbatterijen
+  2026 comparison (€/kWh, garantie, chemie).
