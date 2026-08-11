@@ -34,7 +34,7 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
    - [x] Dynamisch energiecontract + thuisbatterij: hoe werkt het, voor wie
    - [x] Thuisbatterij subsidie: stand van zaken NL (en BE premies per gewest) — refresh after
          Prinsjesdag 17 sep 2026 (btw-besluit losse batterijen!)
-   - [ ] Beste thuisbatterijen 2026: vergelijking op €/kWh, garantie, chemie
+   - [x] Beste thuisbatterijen 2026: vergelijking op €/kWh, garantie, chemie
    - [ ] Thuisaccu en verzekering/brandveiligheid: waar je op moet letten
    - [ ] Belgische variant-pagina's (premies, digitale meter, capaciteitstarief)
    - [ ] FAQ-pagina (schema.org FAQ markup) per calculator
@@ -72,3 +72,11 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   region/situation checker. Cross-linked + sitemap. IMPORTANT date: refresh page after
   17 sep 2026 (Prinsjesdag). All 6 human blockers still open. Next up: beste thuisbatterijen
   2026 comparison (€/kWh, garantie, chemie).
+- **2026-08-11** (daily session 4): Added `beste-thuisbatterijen.html` — situation-based
+  comparison (premium: Sigenergy/Tesla PW3/SolarEdge/Enphase; dynamic-trading: Sessy/Zonneplan/
+  AlphaESS; modular budget: BYD/Huawei/Marstek/LG at €300–600/kWh; plug-in: Marstek Venus E
+  ±€254/kWh), criteria table (LFP, ≥6.000 cycli, €400–650/kWh incl. install benchmark), 5 offer
+  pitfalls, and an interactive offerte-checker (price-per-kWh verdict + warranty flags) feeding
+  the quote funnel. Explicitly framed as public-spec comparison, no fabricated tests.
+  Cross-linked + sitemap. All 6 human blockers still open. Next up: brandveiligheid/verzekering
+  article or FAQ pages with schema.org markup.

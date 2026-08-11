@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beste thuisbatterij 2026: vergelijking op €/kWh, garantie en chemie | BatterijWijzer</title>
+<meta name="description" content="Welke thuisbatterij past bij jou in 2026? Onafhankelijke vergelijking op prijs per kWh, garantie, chemie (LFP) en slimme sturing — per situatie, met offerte-checker.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <a class="logo" href="index.html">🔋 BatterijWijzer</a>
+  <nav>
+    <a href="thuisbatterij-calculator.html">Thuisbatterij-calculator</a>
+    <a href="zonnepanelen-terugverdientijd.html">Zonnepanelen-calculator</a>
+    <a href="salderen-stopt.html">Salderen stopt: uitleg</a>
+    <a href="offerte.html">Gratis offertes</a>
+  </nav>
+</header>
+<main>
+  <h1>Beste thuisbatterij 2026: er is geen winnaar — wel een beste keuze voor jóuw situatie</h1>
+  <p class="lead">"Dé beste thuisbatterij" bestaat niet: de juiste keuze hangt af van je omvormer, budget en of je op uurprijzen wilt sturen. Wat wél objectief te vergelijken valt: prijs per kWh, garantie, chemie en sturing. Deze vergelijking is gebaseerd op openbare specificaties en richtprijzen (augustus 2026) — wij testen niet zelf en verkopen niets.</p>
+
+  <h2>Waar je écht op vergelijkt</h2>
+  <table>
+    <tr><th>Criterium</th><th>Goede waarde in 2026</th><th>Waarom het telt</th></tr>
+    <tr><td><strong>Prijs per bruikbare kWh</strong> (incl. installatie)</td><td>±€400–650; onder €500 is scherp</td><td>Dé bepalende factor voor je terugverdientijd</td></tr>
+    <tr><td><strong>Chemie</strong></td><td>LFP (lithium-ijzerfosfaat)</td><td>Veiliger (brand) en meer cycli dan NMC</td></tr>
+    <tr><td><strong>Garantie</strong></td><td>10 jaar én ≥6.000 cycli (met restcapaciteit ≥70%)</td><td>Cycligarantie is belangrijker dan jaren als je dagelijks handelt</td></tr>
+    <tr><td><strong>Slimme sturing</strong></td><td>Native koppeling met dynamische contracten</td><td>Zonder sturing mis je het <a href="dynamisch-contract-thuisbatterij.html">handelsrendement</a></td></tr>
+    <tr><td><strong>Koppeling</strong></td><td>AC (bij bestaande panelen) of hybride DC (bij nieuwe installatie)</td><td>Bepaalt of je omvormer vervangen moet worden</td></tr>
+  </table>
+
+  <h2>Het aanbod per situatie (richtprijzen augustus 2026)</h2>
+  <table>
+    <tr><th>Situatie</th><th>Passende systemen</th><th>Indicatie</th></tr>
+    <tr>
+      <td><strong>Premium totaalsysteem</strong><br>nieuwe installatie, alles geïntegreerd</td>
+      <td>Sigenergy SigenStor, Tesla Powerwall 3, SolarEdge Home Battery, Enphase IQ 5P</td>
+      <td>Hogere prijs per kWh, sterkste integratie en app-ervaring; hybride/DC-varianten interessant bij nieuwe panelen</td>
+    </tr>
+    <tr>
+      <td><strong>Slim handelen op uurprijzen</strong><br>dynamisch contract centraal</td>
+      <td>Sessy (NL), Zonneplan-batterij (contractgebonden), AlphaESS met EMS</td>
+      <td>Nederlandse sturing op dag-vooruit-prijzen; let bij contractgebonden aanbod op leveranciers-lock-in</td>
+    </tr>
+    <tr>
+      <td><strong>Modulair &amp; prijsbewust</strong><br>capaciteit later uitbreiden</td>
+      <td>BYD Battery-Box, Huawei LUNA2000, Marstek, LG RESU</td>
+      <td>±€300–600 per kWh exclusief montage; check compatibiliteit met je bestaande omvormer</td>
+    </tr>
+    <tr>
+      <td><strong>Kleine instap / huurwoning</strong><br>plug-in stekkerbatterij</td>
+      <td>Marstek Venus E (±€254/kWh, laagste in de markt)</td>
+      <td>Geen installateur nodig; beperkt vermogen en capaciteit, geen ISDE (die vereist installatie met nieuwe panelen)</td>
+    </tr>
+  </table>
+
+  <div class="card">
+    <h2 style="margin-top:0">🧾 Offerte-checker: betaal je een eerlijke prijs?</h2>
+    <label>Offerteprijs inclusief installatie en btw (€)
+      <input type="number" id="o-prijs" value="4500" min="0">
+    </label>
+    <label>Bruikbare capaciteit (kWh)
+      <input type="number" id="o-cap" value="8" step="0.5" min="0.5">
+    </label>
+    <label>Garantie
+      <select id="o-gar">
+        <option value="goed">10 jaar én ≥6.000 cycli</option>
+        <option value="matig">10 jaar, cycli onbekend/lager</option>
+        <option value="slecht">Korter dan 10 jaar</option>
+      </select>
+    </label>
+    <button onclick="checkOfferte()">Check mijn offerte</button>
+    <div class="result" id="resultaat">
+      <div>Prijs per bruikbare kWh: <span class="big" id="r-pkwh"></span></div>
+      <p id="r-oordeel" style="margin-bottom:0"></p>
+      <p style="margin-bottom:0"><a class="btn" href="offerte.html">Vergelijk met 2 extra offertes →</a></p>
+    </div>
+  </div>
+
+  <h2>Vijf valkuilen bij batterij-offertes</h2>
+  <ol>
+    <li><strong>Bruto vs bruikbaar.</strong> Een "10 kWh"-batterij met 80% ontlaaddiepte is een 8 kWh-batterij. Reken altijd met bruikbare capaciteit.</li>
+    <li><strong>Terugverdientijd mét salderen voorgerekend.</strong> Alles vóór 2027 is een overgangssituatie — eis een berekening <a href="salderen-stopt.html">zonder salderen</a>.</li>
+    <li><strong>"Tot €1.200 per jaar besparing".</strong> Best-case marketing; <a href="dynamisch-contract-thuisbatterij.html">realistisch is €400–700</a> met panelen en dynamisch contract.</li>
+    <li><strong>Sturing als optie.</strong> Slimme aansturing die €200+ per jaar extra oplevert hoort inbegrepen te zijn, geen abonnement-verrassing achteraf.</li>
+    <li><strong>Subsidie vergeten (of dubbel beloofd).</strong> ISDE geldt alleen mét nieuwe panelen — <a href="subsidie-thuisbatterij.html">check zelf de regels</a> in plaats van op de verkoper te vertrouwen.</li>
+  </ol>
+
+  <div class="notice">Deze pagina vergelijkt op openbare specificaties en richtprijzen (peildatum augustus 2026); wij voeren geen eigen duurtests uit. Prijzen verschillen per installateur en regio — vraag daarom altijd <a href="offerte.html">meerdere offertes</a> aan.</div>
+
+<script>
+function checkOfferte() {
+  const prijs = +document.getElementById('o-prijs').value || 0;
+  const cap = +document.getElementById('o-cap').value || 1;
+  const gar = document.getElementById('o-gar').value;
+  const pkwh = prijs / cap;
+  document.getElementById('r-pkwh').textContent = '€ ' + pkwh.toLocaleString('nl-NL', {maximumFractionDigits: 0});
+  let oordeel;
+  if (pkwh < 400) oordeel = 'Scherpe prijs — onder het marktgemiddelde van 2026.';
+  else if (pkwh <= 650) oordeel = 'Marktconform (±€400–650 per kWh incl. installatie in 2026).';
+  else oordeel = 'Aan de dure kant: boven de gangbare bandbreedte van 2026. Onderhandelen of extra offertes aanvragen loont vrijwel zeker.';
+  if (gar === 'matig') oordeel += ' Let op: vraag de cycligarantie na — bij dagelijks laden/ontladen is 6.000+ cycli de norm.';
+  if (gar === 'slecht') oordeel += ' Waarschuwing: minder dan 10 jaar garantie is in 2026 onder de maat — dit drukt de restwaarde van je investering fors.';
+  document.getElementById('r-oordeel').textContent = oordeel;
+  document.getElementById('resultaat').classList.add('show');
+}
+</script>
+</main>
+<footer class="site">
+  <p>BatterijWijzer is een onafhankelijke rekentool. Uitkomsten zijn indicatief; aan berekeningen kunnen geen rechten worden ontleend.</p>
+  <p><a href="privacy.html">Privacyverklaring</a> · <a href="offerte.html">Offerte aanvragen</a></p>
+</footer>
+</body>
+</html>
