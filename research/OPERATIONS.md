@@ -35,7 +35,7 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
    - [x] Thuisbatterij subsidie: stand van zaken NL (en BE premies per gewest) — refresh after
          Prinsjesdag 17 sep 2026 (btw-besluit losse batterijen!)
    - [x] Beste thuisbatterijen 2026: vergelijking op €/kWh, garantie, chemie
-   - [ ] Thuisaccu en verzekering/brandveiligheid: waar je op moet letten
+   - [x] Thuisaccu en verzekering/brandveiligheid: waar je op moet letten
    - [ ] Belgische variant-pagina's (premies, digitale meter, capaciteitstarief)
    - [ ] FAQ-pagina (schema.org FAQ markup) per calculator
 3. Technical backlog:
@@ -80,3 +80,12 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   the quote funnel. Explicitly framed as public-spec comparison, no fabricated tests.
   Cross-linked + sitemap. All 6 human blockers still open. Next up: brandveiligheid/verzekering
   article or FAQ pages with schema.org markup.
+- **2026-08-12** (daily session 5): Added `brandveiligheid-verzekering.html` — opstal vs
+  inboedel (vast vs plug-in, huurwoning), the 3 insurer requirements (NEN 1010, erkend
+  installateur, installatierapport), legal registration duty via Energieleveren.nl (insurers
+  ask for proof), placement do's/don'ts (no bedroom/gas/wooden attic; concrete floor, dry,
+  frost-free, ventilated), LFP preference, BE note (AREI/Fluvius). Includes interactive
+  6-point coverage checklist. Cross-linked + sitemap. All 6 human blockers still open.
+  Content backlog remaining: Belgische variant-pagina's, FAQ + schema.org markup;
+  tech backlog: Open Graph tags, analytics (needs human signup), nieuwsbrief (needs human
+  signup).
