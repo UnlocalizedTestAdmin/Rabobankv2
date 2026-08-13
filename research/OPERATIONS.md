@@ -37,10 +37,10 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
    - [x] Beste thuisbatterijen 2026: vergelijking op €/kWh, garantie, chemie
    - [x] Thuisaccu en verzekering/brandveiligheid: waar je op moet letten
    - [ ] Belgische variant-pagina's (premies, digitale meter, capaciteitstarief)
-   - [ ] FAQ-pagina (schema.org FAQ markup) per calculator
+   - [x] FAQ-pagina (schema.org FAQ markup) per calculator
 3. Technical backlog:
    - [x] sitemap.xml + robots.txt (paths relative — make absolute once domain exists)
-   - [ ] Schema.org markup (WebApplication voor calculators, FAQPage)
+   - [x] Schema.org markup (WebApplication voor calculators, FAQPage)
    - [ ] Open Graph tags + social preview
    - [ ] Cookieless analytics (e.g. GoatCounter free tier — needs human signup, ask once)
    - [ ] Nieuwsbrief-signup blok (needs provider signup — ask once)
@@ -89,3 +89,10 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   Content backlog remaining: Belgische variant-pagina's, FAQ + schema.org markup;
   tech backlog: Open Graph tags, analytics (needs human signup), nieuwsbrief (needs human
   signup).
+- **2026-08-13** (daily session 6): Added `veelgestelde-vragen.html` — 12 FAQs in 3 clusters
+  (salderen / thuisbatterij / subsidie & regels), collapsible details-elements, all answers
+  distilled from existing verified pages with internal links; JSON-LD FAQPage markup (8 core
+  Q&As). Added WebApplication JSON-LD to both calculators. Cross-linked + sitemap. All 6 human
+  blockers still open (day 6). Remaining content backlog: Belgische variant-pagina's;
+  remaining tech: Open Graph tags. NOTE for next sessions: consider drafting installer
+  outreach emails (Tier 3 lead sales) — doable without human accounts, human only sends.
