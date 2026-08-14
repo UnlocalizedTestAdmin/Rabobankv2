@@ -41,7 +41,7 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
 3. Technical backlog:
    - [x] sitemap.xml + robots.txt (paths relative — make absolute once domain exists)
    - [x] Schema.org markup (WebApplication voor calculators, FAQPage)
-   - [ ] Open Graph tags + social preview
+   - [x] Open Graph tags (all pages; social preview image still to make once branding is set)
    - [ ] Cookieless analytics (e.g. GoatCounter free tier — needs human signup, ask once)
    - [ ] Nieuwsbrief-signup blok (needs provider signup — ask once)
 4. Never: fake reviews, fabricated "test results", scaled thin AI pages (March 2026 spam
@@ -96,3 +96,12 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   blockers still open (day 6). Remaining content backlog: Belgische variant-pagina's;
   remaining tech: Open Graph tags. NOTE for next sessions: consider drafting installer
   outreach emails (Tier 3 lead sales) — doable without human accounts, human only sends.
+- **2026-08-14** (daily session 7): Created `research/OUTREACH-EMAILS.md` — the Tier-3 direct
+  lead-sales pack: 4 Dutch email templates (installer pilot pitch with 3-free-leads hook,
+  follow-up, lead-marketplace supplier application, Flemish variant), pricing anchors
+  (€35 intro / €45 standard exclusive, €20–25 shared), targeting criteria, AVG
+  verwerkersovereenkomst core clause, and usage rules (never send before the funnel is live;
+  never claim volume we don't have). Also injected Open Graph tags on all 13 pages
+  (og:title/description/locale/site_name derived from existing meta). All 6 human blockers
+  still open (day 7). Remaining content backlog: Belgische variant-pagina's. When human
+  unblocks: sending outreach needs a sender address at the domain.
