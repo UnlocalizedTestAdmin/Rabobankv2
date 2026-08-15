@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thuisbatterij in Vlaanderen (2026): capaciteitstarief, rendement en terugverdientijd | BatterijWijzer</title>
+<meta name="description" content="Loont een thuisbatterij in Vlaanderen? Met het capaciteitstarief (±€56,6/kW/jaar), lage injectievergoeding en 6% btw ligt de rekensom anders dan in Nederland. Bereken het met de Vlaamse calculator.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="nl_BE">
+<meta property="og:site_name" content="BatterijWijzer">
+<meta property="og:title" content="Thuisbatterij in Vlaanderen (2026): capaciteitstarief, rendement en terugverdientijd | BatterijWijzer">
+<meta property="og:description" content="Loont een thuisbatterij in Vlaanderen? Met het capaciteitstarief, lage injectievergoeding en 6% btw ligt de rekensom anders dan in Nederland. Bereken het met de Vlaamse calculator.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <a class="logo" href="index.html">🔋 BatterijWijzer</a>
+  <nav>
+    <a href="thuisbatterij-calculator.html">Thuisbatterij-calculator</a>
+    <a href="zonnepanelen-terugverdientijd.html">Zonnepanelen-calculator</a>
+    <a href="salderen-stopt.html">Salderen stopt: uitleg</a>
+    <a href="offerte.html">Gratis offertes</a>
+  </nav>
+</header>
+<main>
+  <h1>Thuisbatterij in Vlaanderen: drie manieren waarop hij zich terugverdient</h1>
+  <p class="lead">In Vlaanderen is de rekensom anders dan in Nederland: er is geen saldering (die verdween al met de digitale meter), de injectievergoeding is laag, en er is een kostenpost die Nederland niet kent — het <strong>capaciteitstarief</strong>. Juist die combinatie maakt een batterij hier op drie manieren rendabel. Peildatum: augustus 2026.</p>
+
+  <h2>Eerst: wat is het capaciteitstarief?</h2>
+  <p>Sinds 2023 betaal je in Vlaanderen nettarieven op basis van je hoogste kwartierpiek per maand, automatisch gemeten door de digitale meter. In 2026 bedraagt het tarief ongeveer <strong>€56,6 per kW per jaar</strong> (incl. 6% btw). Een gemiddeld gezin betaalt zo €90–245 per jaar — wie 's avonds tegelijk kookt, de auto laadt en een droogkast draait, zit snel aan pieken van 6–8 kW en betaalt navenant.</p>
+
+  <h2>De drie verdienmodellen in Vlaanderen</h2>
+  <table>
+    <tr><th>Model</th><th>Hoe</th><th>Indicatie per jaar</th></tr>
+    <tr><td><strong>1. Meer zelfverbruik</strong></td><td>Zonnestroom die je anders tegen een lage injectievergoeding (enkele centen per kWh) op het net kwijt was, gebruik je 's avonds zelf tegen de volle leveringsprijs</td><td>Grootste post; afhankelijk van opwek en verbruik</td></tr>
+    <tr><td><strong>2. Piekafvlakking (peak shaving)</strong></td><td>De batterij vangt je verbruikspieken op, waardoor je maandpiek — en dus het capaciteitstarief — daalt</td><td>±€70–200</td></tr>
+    <tr><td><strong>3. Dynamische uurprijzen</strong></td><td>Goedkoop laden, duur ontladen — zoals in Nederland, met een dynamisch contract en slimme sturing</td><td>±€100–250</td></tr>
+  </table>
+  <p>Alles samen komen Vlaamse huishoudens met zonnepanelen, digitale meter en slimme sturing uit op een totale besparing van grofweg <strong>€400–800 per jaar</strong>, met terugverdientijden van gemiddeld <strong>7–10 jaar</strong>. Zonder slimme sturing vallen model 2 en 3 grotendeels weg — sturing is in Vlaanderen dus geen luxe maar de kern van de businesscase.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">🧮 Vlaamse thuisbatterij-calculator</h2>
+    <label>Jaarlijkse opwek zonnepanelen (kWh)
+      <span class="hint">Geen panelen? Vul 0 in — dan telt alleen piekafvlakking en prijshandel.</span>
+      <input type="number" id="v-opwek" value="3500" min="0">
+    </label>
+    <label>Direct zelfverbruik van je zonnestroom (%)
+      <input type="number" id="v-zelf" value="30" min="0" max="100">
+    </label>
+    <label>Leveringsprijs stroom (€/kWh)
+      <input type="number" id="v-prijs" value="0.32" step="0.01" min="0">
+    </label>
+    <label>Injectievergoeding (€/kWh)
+      <span class="hint">Wat je leverancier betaalt per geïnjecteerde kWh; vaak €0,02–0,05.</span>
+      <input type="number" id="v-injectie" value="0.04" step="0.01" min="0">
+    </label>
+    <label>Bruikbare batterijcapaciteit (kWh)
+      <input type="number" id="v-cap" value="7" step="0.5" min="0">
+    </label>
+    <label>Prijs batterij incl. installatie en btw (€)
+      <span class="hint">Tip: bij een woning ouder dan 10 jaar geldt 6% i.p.v. 21% btw.</span>
+      <input type="number" id="v-kost" value="4200" min="0">
+    </label>
+    <label>Verwachte verlaging van je maandpiek (kW)
+      <span class="hint">Met slimme sturing is 1,5–3 kW piekafvlakking realistisch.</span>
+      <input type="number" id="v-piek" value="2" step="0.5" min="0">
+    </label>
+    <label>Dynamisch contract met slimme sturing?
+      <select id="v-dyn"><option value="ja">Ja</option><option value="nee">Nee</option></select>
+    </label>
+    <button onclick="berekenVL()">Bereken besparing en terugverdientijd</button>
+    <div class="result" id="resultaat">
+      <div>Totale besparing: <span class="big" id="r-tot"></span></div>
+      <p id="r-detail" style="margin:0.5rem 0 0"></p>
+      <div style="margin-top:0.5rem">Terugverdientijd: <span class="big" id="r-tvt"></span></div>
+      <p id="r-advies" style="margin-bottom:0"></p>
+      <p style="margin-bottom:0"><a class="btn" href="offerte.html">Vraag vrijblijvend offertes aan →</a></p>
+    </div>
+  </div>
+
+  <h2>Waar je in Vlaanderen extra op let</h2>
+  <ul>
+    <li><strong>Keuring verplicht:</strong> de installatie moet AREI-conform zijn en gekeurd worden; meld de batterij aan bij Fluvius. Vergelijkbaar met de Nederlandse regels — <a href="brandveiligheid-verzekering.html">zo blijf je ook verzekerd</a>.</li>
+    <li><strong>6% btw</strong> bij plaatsing door een erkend installateur in een woning ouder dan 10 jaar; <a href="subsidie-thuisbatterij.html">premies zijn er niet meer</a>.</li>
+    <li><strong>Terugdraaiende teller?</strong> Heb je nog een analoge teller, dan is een batterij financieel vrijwel zinloos: je saldeert de facto nog. De rekensom hierboven geldt voor digitale meters.</li>
+    <li><strong>Kwaliteit van de sturing</strong> bepaalt het verschil tussen €400 en €800 per jaar — vraag installateurs expliciet hoe de piekafvlakking en prijssturing werken en <a href="beste-thuisbatterijen.html">check de offerte op prijs per kWh</a>.</li>
+  </ul>
+
+  <div class="notice">Bedragen zijn indicaties (augustus 2026): capaciteitstarief ±€56,6/kW/jaar, gemiddelde gezinsbijdrage €90–245/jaar, piekafvlakking bespaart ±€70–200/jaar. Nettarieven worden jaarlijks herzien door de VREG — controleer de actuele tarieven voor je beslist.</div>
+
+<script>
+function berekenVL() {
+  const opwek = +document.getElementById('v-opwek').value || 0;
+  const zelf = Math.min(100, +document.getElementById('v-zelf').value || 0) / 100;
+  const prijs = +document.getElementById('v-prijs').value || 0;
+  const inj = +document.getElementById('v-injectie').value || 0;
+  const cap = +document.getElementById('v-cap').value || 0;
+  const kost = +document.getElementById('v-kost').value || 0;
+  const piek = +document.getElementById('v-piek').value || 0;
+  const dyn = document.getElementById('v-dyn').value === 'ja';
+
+  const overschot = opwek * (1 - zelf);
+  const verschoven = Math.min(overschot, cap * 300) * 0.9;
+  const zelfverbruik = verschoven * Math.max(0, prijs - inj);
+  const capTarief = 56.6;
+  const piekBesparing = Math.min(piek * capTarief, 250);
+  const handel = dyn ? Math.min(cap * 30, 250) : 0;
+  const totaal = zelfverbruik + piekBesparing + handel;
+  const tvt = totaal > 0 ? kost / totaal : Infinity;
+
+  const f = n => '€ ' + n.toLocaleString('nl-BE', {maximumFractionDigits: 0});
+  document.getElementById('r-tot').textContent = f(totaal) + ' per jaar';
+  document.getElementById('r-detail').textContent =
+    'Zelfverbruik: ' + f(zelfverbruik) + ' · piekafvlakking: ' + f(piekBesparing) + ' · prijshandel: ' + f(handel);
+  document.getElementById('r-tvt').textContent = isFinite(tvt) ? tvt.toLocaleString('nl-BE', {maximumFractionDigits: 1}) + ' jaar' : '—';
+
+  let advies;
+  if (!isFinite(tvt)) advies = 'Met deze invoer levert de batterij niets op — controleer je invoer.';
+  else if (tvt <= 8) advies = 'Goede businesscase naar Vlaamse maatstaven: korter dan de gangbare 7–10 jaar.';
+  else if (tvt <= 11) advies = 'Rond het Vlaamse gemiddelde (7–10 jaar). Betere sturing, een groter piekvoordeel of 6% btw kan het verschil maken.';
+  else advies = 'Aan de lange kant. Check of je maandpiek echt hoog genoeg is en of een dynamisch contract mogelijk is; anders is wachten op lagere prijzen verstandiger.';
+  document.getElementById('r-advies').textContent = advies;
+  document.getElementById('resultaat').classList.add('show');
+}
+</script>
+</main>
+<footer class="site">
+  <p>BatterijWijzer is een onafhankelijke rekentool. Uitkomsten zijn indicatief; aan berekeningen kunnen geen rechten worden ontleend.</p>
+  <p><a href="privacy.html">Privacyverklaring</a> · <a href="offerte.html">Offerte aanvragen</a></p>
+</footer>
+</body>
+</html>

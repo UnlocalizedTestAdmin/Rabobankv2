@@ -36,7 +36,8 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
          Prinsjesdag 17 sep 2026 (btw-besluit losse batterijen!)
    - [x] Beste thuisbatterijen 2026: vergelijking op €/kWh, garantie, chemie
    - [x] Thuisaccu en verzekering/brandveiligheid: waar je op moet letten
-   - [ ] Belgische variant-pagina's (premies, digitale meter, capaciteitstarief)
+   - [x] Belgische variant-pagina's (premies, digitale meter, capaciteitstarief) — Vlaanderen
+         done; Wallonië/Brussel variant optional later
    - [x] FAQ-pagina (schema.org FAQ markup) per calculator
 3. Technical backlog:
    - [x] sitemap.xml + robots.txt (paths relative — make absolute once domain exists)
@@ -105,3 +106,14 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   (og:title/description/locale/site_name derived from existing meta). All 6 human blockers
   still open (day 7). Remaining content backlog: Belgische variant-pagina's. When human
   unblocks: sending outreach needs a sender address at the domain.
+- **2026-08-15** (daily session 8): Added `thuisbatterij-vlaanderen.html` — the Flemish market
+  page: capaciteitstarief explained (±€56,6/kW/jaar 2026, gezinnen €90–245/jr op maandpiek),
+  the three Flemish revenue models (zelfverbruik vs lage injectievergoeding, piekafvlakking
+  €70–200/jr, dynamische prijshandel), total €400–800/jr and 7–10 jr payback benchmarks, AREI/
+  Fluvius/6% btw notes, analoge-teller warning, and a dedicated Flemish calculator with
+  peak-shaving input and per-stream breakdown (nl-BE locale, og:locale nl_BE). Cross-linked
+  from homepage + subsidie page + sitemap. CONTENT BACKLOG NOW EMPTY except optional
+  Wallonië/Brussel variants and the monthly terugleverkosten refresh (due ±2026-09-08).
+  All 6 human blockers still open (day 8). Suggested next sessions: monthly data refresh,
+  Wallonië/Brussel variant, nieuwsbrief-ready content, or maintenance passes pending human
+  unblocks (Prinsjesdag refresh due after 17 sep).
