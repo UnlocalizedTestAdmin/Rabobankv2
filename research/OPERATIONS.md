@@ -117,3 +117,11 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   All 6 human blockers still open (day 8). Suggested next sessions: monthly data refresh,
   Wallonië/Brussel variant, nieuwsbrief-ready content, or maintenance passes pending human
   unblocks (Prinsjesdag refresh due after 17 sep).
+- **2026-08-16** (daily session 9): QA hardening day. Added `tools/site_check.py` — repeatable
+  site QA (broken internal links, missing title/description/og/viewport/favicon, sitemap
+  coverage both directions; noindex pages exempt from description/og). Ran it: links/meta/
+  sitemap were clean; favicons were missing → injected inline-SVG 🔋 favicon on all pages.
+  Added 404.html (noindex, links to calculators; GitHub Pages serves it automatically).
+  Final state: 15 pages checked, 0 problems + JS brace sanity check OK. RULE for future
+  sessions: run `python3 tools/site_check.py` before every push. All 6 human blockers still
+  open (day 9).
