@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thuisbatterij in Wallonië en Brussel (2026): prosumententarief, injectie en certificaten | BatterijWijzer</title>
+<meta name="description" content="Loont een thuisbatterij in Wallonië of Brussel? Prosumententarief (±€76–86/kWe), injectietarief voor nieuwe installaties, groenestroomcertificaten en Homegrade-leningen — met regime-checker.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="nl_BE">
+<meta property="og:site_name" content="BatterijWijzer">
+<meta property="og:title" content="Thuisbatterij in Wallonië en Brussel (2026): prosumententarief, injectie en certificaten | BatterijWijzer">
+<meta property="og:description" content="Loont een thuisbatterij in Wallonië of Brussel? Prosumententarief, injectietarief, groenestroomcertificaten en Homegrade-leningen — met regime-checker.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔋</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <a class="logo" href="index.html">🔋 BatterijWijzer</a>
+  <nav>
+    <a href="thuisbatterij-calculator.html">Thuisbatterij-calculator</a>
+    <a href="zonnepanelen-terugverdientijd.html">Zonnepanelen-calculator</a>
+    <a href="salderen-stopt.html">Salderen stopt: uitleg</a>
+    <a href="offerte.html">Gratis offertes</a>
+  </nav>
+</header>
+<main>
+  <h1>Thuisbatterij in Wallonië en Brussel: welk regime geldt voor jou?</h1>
+  <p class="lead">Na <a href="thuisbatterij-vlaanderen.html">Vlaanderen</a> de andere twee gewesten. In Wallonië hangt de hele rekensom af van één vraag — wanneer werd je installatie gekeurd? — en in Brussel draait alles om groenestroomcertificaten. Peildatum: augustus 2026.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">🧭 Regime-checker</h2>
+    <label>Waar woon je?
+      <select id="c-gewest">
+        <option value="wa">Wallonië</option>
+        <option value="br">Brussel</option>
+      </select>
+    </label>
+    <label>Wanneer werd (of wordt) je zonne-installatie gekeurd?
+      <select id="c-datum">
+        <option value="voor2024">Vóór 1 januari 2024</option>
+        <option value="na2024">Ná 1 januari 2024 (of nog te plaatsen)</option>
+        <option value="geen">Ik heb geen zonnepanelen</option>
+      </select>
+    </label>
+    <label>Heb je een slimme meter?
+      <select id="c-meter"><option value="ja">Ja</option><option value="nee">Nee</option></select>
+    </label>
+    <button onclick="check()">Toon mijn regime en batterij-advies</button>
+    <div class="result" id="resultaat"><ul id="r-lijst" style="margin:0 0 0 1.1rem;padding:0"></ul></div>
+  </div>
+
+  <h2>Wallonië: prosumententarief of injectieregime</h2>
+  <table>
+    <tr><th>Situatie</th><th>Regime</th><th>Wat betaal je (2026)</th></tr>
+    <tr><td><strong>Installatie gekeurd vóór 2024</strong></td><td>Prosumententarief (forfaitair): jaarlijks bedrag per kWe omvormervermogen aan je netbeheerder</td><td>±€76–86 per kWe per jaar (ORES €85,84 · RESA €85,93 · AIEG €76,45); een 6 kWe-installatie kost zo ±€460–520/jaar</td></tr>
+    <tr><td><strong>Idem, mét slimme meter</strong></td><td>Optioneel: proportioneel tarief op basis van werkelijke afname</td><td>Bij goed zelfverbruik vaak €300–400 i.p.v. ±€550 — en hier verdient een batterij dus direct geld</td></tr>
+    <tr><td><strong>Installatie gekeurd ná 1-1-2024</strong></td><td>Geen prosumententarief; je betaalt voor werkelijke afname en krijgt een (lage) injectievergoeding</td><td>Vergelijkbaar met Vlaanderen: batterij verdient via meer zelfverbruik</td></tr>
+  </table>
+  <p><strong>Wat betekent dit voor een batterij?</strong> In het forfaitaire regime is een batterij financieel oninteressant: je betaalt tóch per kWe, ongeacht wat je met je overschot doet. Maar wie overstapt naar het proportionele tarief (slimme meter vereist) of onder het nieuwe injectieregime valt, bespaart met elke zelf verbruikte kWh — daar rekent de batterij zich net als in Vlaanderen terug via zelfverbruik, aangevuld met dynamische prijssturing.</p>
+
+  <h2>Brussel: certificaten als motor, batterij als aanvulling</h2>
+  <ul>
+    <li><strong>Groenestroomcertificaten:</strong> Brussel beloont zonnepanelen nog altijd met certificaten gedurende 10 jaar — afhankelijk van de installatiegrootte honderden euro's per jaar. Die krijg je voor je <em>productie</em>, batterij of niet.</li>
+    <li><strong>Injectie levert weinig op:</strong> net als elders is de injectievergoeding laag. Een batterij verdient dus via zelfverbruik, bovenop je certificaten.</li>
+    <li><strong>Geen batterijpremie, wel goedkoop lenen:</strong> via Homegrade zijn renteloze of goedkope leningen beschikbaar voor energie-investeringen.</li>
+    <li><strong>6% btw</strong> bij plaatsing door een erkend installateur in een woning ouder dan 10 jaar — <a href="subsidie-thuisbatterij.html">alle regelingen op een rij</a>.</li>
+  </ul>
+
+  <h2>Praktisch</h2>
+  <ol>
+    <li><strong>Walloniër met oude installatie?</strong> Vraag eerst een slimme meter aan en reken het proportionele tarief door vóór je een batterij overweegt — de volgorde maakt honderden euro's verschil.</li>
+    <li><strong>Nieuwe installatie (beide gewesten)?</strong> Reken met de <a href="thuisbatterij-vlaanderen.html">Vlaamse calculator</a> maar zonder capaciteitstarief-post (Wallonië en Brussel kennen die piekheffing zo niet); de zelfverbruik- en handelslogica is identiek.</li>
+    <li><strong>AREI-keuring en aanmelding</strong> bij je netbeheerder (ORES/RESA/Sibelga) zijn verplicht — en voorwaarde voor je <a href="brandveiligheid-verzekering.html">verzekeringsdekking</a>.</li>
+    <li><strong>Offertes vergelijken loont extra</strong> in Wallonië en Brussel: minder installateurs, grotere prijsspreiding. <a href="offerte.html">Vraag er vrijblijvend drie aan</a> en <a href="beste-thuisbatterijen.html">check de prijs per kWh</a>.</li>
+  </ol>
+
+  <div class="notice">Tarieven zijn de door de CWaPE goedgekeurde bedragen voor 2026 (Wallonië) en de stand van augustus 2026 (Brussel); netbeheerders herzien jaarlijks. Controleer je eigen netbeheerder (ORES, RESA, AIEG, REW, Sibelga) voor het actuele tarief.</div>
+
+<script>
+function check() {
+  const gewest = document.getElementById('c-gewest').value;
+  const datum = document.getElementById('c-datum').value;
+  const slim = document.getElementById('c-meter').value === 'ja';
+  const items = [];
+  if (gewest === 'wa') {
+    if (datum === 'voor2024') {
+      items.push('<strong>Regime:</strong> prosumententarief — forfaitair ±€76–86 per kWe per jaar aan je netbeheerder.');
+      items.push(slim
+        ? '<strong>Kans:</strong> met je slimme meter kun je overstappen naar het proportionele tarief. Bij goed zelfverbruik bespaar je €150–250/jaar — en een thuisbatterij vergroot dat voordeel verder.'
+        : '<strong>Advies:</strong> vraag eerst een slimme meter aan; in het forfaitaire regime verdient een batterij vrijwel niets, in het proportionele wél.');
+    } else if (datum === 'na2024') {
+      items.push('<strong>Regime:</strong> injectieregime — geen prosumententarief; lage vergoeding per geïnjecteerde kWh.');
+      items.push('<strong>Batterij:</strong> verdient via zelfverbruik en (met dynamisch contract) prijssturing — zelfde logica als Vlaanderen, zonder capaciteitstarief-bonus.');
+    } else {
+      items.push('<strong>Zonder panelen</strong> verdient een batterij in Wallonië alleen via dynamische prijssturing — meestal een magere businesscase. Overweeg eerst panelen (' + '<a href="zonnepanelen-terugverdientijd.html">reken het door</a>).');
+    }
+  } else {
+    if (datum === 'geen') {
+      items.push('<strong>Brussel zonder panelen:</strong> een batterij alleen voor prijshandel is zelden rendabel. Panelen eerst — die leveren hier ook groenestroomcertificaten op.');
+    } else {
+      items.push('<strong>Regime:</strong> groenestroomcertificaten voor je productie (10 jaar) + lage injectievergoeding voor je overschot.');
+      items.push('<strong>Batterij:</strong> verdient via zelfverbruik, bóvenop je certificaten. Financiering kan via een goedkope Homegrade-lening.');
+    }
+  }
+  items.push('Check ook het verlaagde btw-tarief van 6% (woning ouder dan 10 jaar, erkend installateur).');
+  document.getElementById('r-lijst').innerHTML = items.map(i => '<li>' + i + '</li>').join('');
+  document.getElementById('resultaat').classList.add('show');
+}
+</script>
+</main>
+<footer class="site">
+  <p>BatterijWijzer is een onafhankelijke rekentool. Uitkomsten zijn indicatief; aan berekeningen kunnen geen rechten worden ontleend.</p>
+  <p><a href="privacy.html">Privacyverklaring</a> · <a href="offerte.html">Offerte aanvragen</a></p>
+</footer>
+</body>
+</html>

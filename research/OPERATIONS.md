@@ -36,8 +36,8 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
          Prinsjesdag 17 sep 2026 (btw-besluit losse batterijen!)
    - [x] Beste thuisbatterijen 2026: vergelijking op €/kWh, garantie, chemie
    - [x] Thuisaccu en verzekering/brandveiligheid: waar je op moet letten
-   - [x] Belgische variant-pagina's (premies, digitale meter, capaciteitstarief) — Vlaanderen
-         done; Wallonië/Brussel variant optional later
+   - [x] Belgische variant-pagina's (premies, digitale meter, capaciteitstarief) — Vlaanderen,
+         Wallonië en Brussel all done; full BE coverage
    - [x] FAQ-pagina (schema.org FAQ markup) per calculator
 3. Technical backlog:
    - [x] sitemap.xml + robots.txt (paths relative — make absolute once domain exists)
@@ -125,3 +125,14 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   Final state: 15 pages checked, 0 problems + JS brace sanity check OK. RULE for future
   sessions: run `python3 tools/site_check.py` before every push. All 6 human blockers still
   open (day 9).
+- **2026-08-17** (daily session 10): Added `thuisbatterij-wallonie-brussel.html` — completes
+  Belgian coverage. Wallonië: prosumententarief 2026 forfaitair ±€76–86/kWe (ORES €85,84 ·
+  RESA €85,93 · AIEG €76,45; CWaPE-approved), only for installations keured before 1-1-2024;
+  proportional-tariff option with smart meter (€300–400 i.p.v. ±€550); post-2024 installations
+  fall under injectieregime. Key insight documented: battery is worthless in the forfait
+  regime, valuable in proportional/injection regimes. Brussel: groenestroomcertificaten
+  (10 jaar), Homegrade loans, low injection. Interactive regime-checker (gewest + keuringsdatum
+  + slimme meter → regime + battery advice). Cross-linked (index, Vlaanderen page, sitemap);
+  QA: 16 pages, 0 problems. All 6 human blockers still open (day 10). Content backlog fully
+  empty. Upcoming dated work: terugleverkosten refresh ±2026-09-08; Prinsjesdag btw-update
+  after 2026-09-17.
