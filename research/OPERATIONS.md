@@ -136,3 +136,10 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   QA: 16 pages, 0 problems. All 6 human blockers still open (day 10). Content backlog fully
   empty. Upcoming dated work: terugleverkosten refresh ±2026-09-08; Prinsjesdag btw-update
   after 2026-09-17.
+- **2026-08-18** (daily session 11): QA automation. Extended `tools/site_check.py` with the
+  inline-JS sanity check (balanced braces/parens per script block, JSON-LD excluded) and added
+  `.github/workflows/qa.yml` so the full check runs in CI on every push touching site/ or
+  tools/. Verified locally: 16 pages, 0 problems. All 6 human blockers still open (day 11).
+  Sessions until ±sep 8 will be light holds unless the human unblocks — next substantive dated
+  work is the terugleverkosten refresh (±2026-09-08), then the Prinsjesdag btw-update (after
+  2026-09-17).

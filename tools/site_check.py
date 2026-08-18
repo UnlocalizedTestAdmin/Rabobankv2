@@ -39,6 +39,14 @@ for page in pages:
         if not ok:
             problems.append(f"{page.name}: missing {label}")
 
+# inline JS sanity: balanced braces/parens in every non-JSON-LD script block
+for page in pages:
+    html = page.read_text(encoding="utf-8")
+    for script in re.findall(r"<script(?![^>]*ld\+json)[^>]*>(.*?)</script>", html, re.S):
+        for open_ch, close_ch in (("{", "}"), ("(", ")")):
+            if script.count(open_ch) != script.count(close_ch):
+                problems.append(f"{page.name}: unbalanced {open_ch}{close_ch} in inline script")
+
 # sitemap coverage
 sitemap = (SITE / "sitemap.xml").read_text(encoding="utf-8")
 listed = set(re.findall(r"<loc>/?([^<]+)</loc>", sitemap))
