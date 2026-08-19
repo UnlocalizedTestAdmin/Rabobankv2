@@ -143,3 +143,9 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   Sessions until ±sep 8 will be light holds unless the human unblocks — next substantive dated
   work is the terugleverkosten refresh (±2026-09-08), then the Prinsjesdag btw-update (after
   2026-09-17).
+- **2026-08-19** (daily session 12): Light hold, as announced. Added a root `README.md` — the
+  repo previously had none at top level (the existing one belongs to the lost-and-found app),
+  so the project overview and the 6-step human unblock checklist are now the first thing
+  visible on GitHub instead of buried in this file. QA green (16 pages, 0 problems). All 6
+  human blockers still open (day 12). Nothing else touched — holding token budget for the
+  ±sep 8 data refresh and the sep 17 Prinsjesdag update.
