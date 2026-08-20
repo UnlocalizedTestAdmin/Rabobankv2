@@ -149,3 +149,10 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   visible on GitHub instead of buried in this file. QA green (16 pages, 0 problems). All 6
   human blockers still open (day 12). Nothing else touched — holding token budget for the
   ±sep 8 data refresh and the sep 17 Prinsjesdag update.
+- **2026-08-20** (daily session 13): Data-integrity spot-check on the ISDE battery subsidy —
+  the site's highest-stakes claim. Verified: subsidy still exists (€250/kWh, max €1.500;
+  homeowner budget €416M for 2026; not exhausted per May/June sources; no August status
+  findable via search — RVO site is behind the egress proxy). Real gap found and fixed:
+  subsidie page now warns that the ISDE pot is first-come-first-served and jun–sep is peak
+  season ("op = op") with advice to check RVO's budget page before signing. QA green
+  (16 pages). All 6 human blockers still open (day 13).
