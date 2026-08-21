@@ -60,9 +60,32 @@ for entry in listed:
     if entry not in page_names:
         problems.append(f"sitemap.xml: dead entry {entry}")
 
+# data freshness (non-fatal): warn when a page's newest Dutch "peildatum" month is stale
+import datetime
+
+MONTHS = {m: i + 1 for i, m in enumerate(
+    ["januari", "februari", "maart", "april", "mei", "juni", "juli",
+     "augustus", "september", "oktober", "november", "december"])}
+today = datetime.date.today()
+warnings = []
+for page in pages:
+    html = page.read_text(encoding="utf-8").lower()
+    dates = [(int(y), MONTHS[m]) for m, y in re.findall(
+        r"\b(" + "|".join(MONTHS) + r")\s+(20\d\d)\b", html)]
+    if not dates:
+        continue
+    year, month = max(dates)
+    age_months = (today.year - year) * 12 + (today.month - month)
+    if age_months > 1:
+        warnings.append(f"{page.name}: peildatum {month:02d}-{year} is {age_months} months old")
+
 if problems:
     print(f"{len(problems)} problem(s):")
     for p in problems:
         print(" -", p)
     sys.exit(1)
+if warnings:
+    print(f"{len(warnings)} freshness warning(s) (non-fatal):")
+    for w in warnings:
+        print(" ~", w)
 print(f"OK: {len(pages)} pages checked, no problems.")

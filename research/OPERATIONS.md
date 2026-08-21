@@ -156,3 +156,9 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   subsidie page now warns that the ISDE pot is first-come-first-served and jun–sep is peak
   season ("op = op") with advice to check RVO's budget page before signing. QA green
   (16 pages). All 6 human blockers still open (day 13).
+- **2026-08-21** (daily session 14): Light hold. Extended `tools/site_check.py` with a
+  non-fatal data-freshness detector: it parses each page's Dutch "peildatum" month-year
+  mentions, takes the newest per page, and warns when it is >1 month old — so the ±sep 8
+  refresh session (and every one after) gets an automatic list of stale pages instead of
+  relying on log memory. Verified detector logic; QA green, zero warnings today (all pages
+  dated aug 2026). All 6 human blockers still open (day 14).
