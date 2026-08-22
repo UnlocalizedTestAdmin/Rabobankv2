@@ -60,6 +60,20 @@ for entry in listed:
     if entry not in page_names:
         problems.append(f"sitemap.xml: dead entry {entry}")
 
+# JSON-LD validity: a typo here silently kills rich results
+import json
+
+for page in pages:
+    html = page.read_text(encoding="utf-8")
+    for i, block in enumerate(re.findall(
+            r'<script type="application/ld\+json">(.*?)</script>', html, re.S), 1):
+        try:
+            data = json.loads(block)
+            if "@context" not in data or "@type" not in data:
+                problems.append(f"{page.name}: JSON-LD block {i} missing @context/@type")
+        except json.JSONDecodeError as e:
+            problems.append(f"{page.name}: invalid JSON-LD block {i}: {e}")
+
 # data freshness (non-fatal): warn when a page's newest Dutch "peildatum" month is stale
 import datetime
 

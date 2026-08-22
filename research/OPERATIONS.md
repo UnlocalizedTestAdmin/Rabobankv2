@@ -162,3 +162,10 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   refresh session (and every one after) gets an automatic list of stale pages instead of
   relying on log memory. Verified detector logic; QA green, zero warnings today (all pages
   dated aug 2026). All 6 human blockers still open (day 14).
+- **2026-08-22** (daily session 15): Light hold. Added JSON-LD validation to
+  `tools/site_check.py` — every application/ld+json block must parse as JSON and carry
+  @context/@type, since a silent typo there kills rich results (the FAQ page and both
+  calculators depend on this markup). All existing blocks valid; QA green, 16 pages,
+  0 problems, 0 freshness warnings. All 6 human blockers still open (day 15). Next dated
+  work unchanged: terugleverkosten refresh ±sep 8 (freshness detector will flag it),
+  Prinsjesdag btw-update after sep 17.
