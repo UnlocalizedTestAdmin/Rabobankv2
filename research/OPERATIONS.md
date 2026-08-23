@@ -169,3 +169,10 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   0 problems, 0 freshness warnings. All 6 human blockers still open (day 15). Next dated
   work unchanged: terugleverkosten refresh ±sep 8 (freshness detector will flag it),
   Prinsjesdag btw-update after sep 17.
+- **2026-08-23** (daily session 16): Wrote `research/PRINSJESDAG-PLAYBOOK.md` — pre-drafted
+  execution plan for the 17 sep btw-besluit on standalone batteries: three scenarios
+  (approved / rejected / postponed) with headlines, key content, the exact pages and JSON-LD
+  blocks to touch, a grep checklist ("Prinsjesdag|17 september"), and the rule to verify the
+  real outcome before publishing anything. Makes the sep 17+ session execute-only — same-day
+  coverage of the decision is the site's best SEO shot this year. All 6 human blockers still
+  open (day 16).
