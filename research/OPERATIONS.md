@@ -176,3 +176,12 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   real outcome before publishing anything. Makes the sep 17+ session execute-only — same-day
   coverage of the decision is the site's best SEO shot this year. All 6 human blockers still
   open (day 16).
+- **2026-08-24** (daily session 17): CI health audit. Verified via the Actions API: Site QA
+  workflow runs and passes on every push (4/4 success) — the QA gate is real. Pages deploy has
+  failed on all 13 runs. Attempted self-service fix: added `enablement: true` to
+  actions/configure-pages (workflow has pages:write). Result: it got further — tried to CREATE
+  the Pages site — but GitHub refused with "Resource not accessible by integration": site
+  creation needs repo-admin rights the workflow token doesn't get. CONCLUSION: Pages
+  enablement is definitively human-only (blocker #1 confirmed, one click in repo Settings →
+  Pages → Source "GitHub Actions"; deploy then auto-heals on next push thanks to the
+  enablement flag staying in place). All 6 human blockers still open (day 17).
