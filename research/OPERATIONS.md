@@ -185,3 +185,9 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   enablement is definitively human-only (blocker #1 confirmed, one click in repo Settings →
   Pages → Source "GitHub Actions"; deploy then auto-heals on next push thanks to the
   enablement flag staying in place). All 6 human blockers still open (day 17).
+- **2026-08-25** (daily session 18): Light hold. Wrote `research/NIEUWSBRIEF-DRAFTS.md` —
+  newsletter starter pack (welcome automation mail with the 3 core calculations, monthly
+  saldering-countdown template, news-alert template for Prinsjesdag/ISDE/tariff moments,
+  activation checklist incl. double opt-in/AVG). Third instantly-activatable asset next to
+  the outreach pack and Prinsjesdag playbook. QA green. All 6 human blockers still open
+  (day 18). Holding until terugleverkosten refresh ±sep 8.
