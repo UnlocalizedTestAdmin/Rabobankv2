@@ -198,3 +198,5 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
 - **2026-08-27** (daily session 20): Quiet hold #2 — branch current, QA green (16 pages,
   0 problems). No changes. Next substance: terugleverkosten refresh ±sep 8, Prinsjesdag
   playbook 17–18 sep. All 6 human blockers still open (day 20).
+- **2026-08-28** (daily session 21): Quiet hold #3 — branch current, QA green (16 pages,
+  0 problems). No changes. All 6 human blockers still open (day 21).
