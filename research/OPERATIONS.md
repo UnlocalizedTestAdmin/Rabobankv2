@@ -205,3 +205,6 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   All 6 human blockers still open (day 22).
 - **2026-08-30** (daily session 23): Quiet hold #5 — branch current, QA green. No changes.
   All 6 human blockers still open (day 23).
+- **2026-08-31** (daily session 24): Quiet hold #6 — branch current, QA green. No changes.
+  Last day of August: the terugleverkosten refresh is due ±sep 8. All 6 human blockers
+  still open (day 24).
