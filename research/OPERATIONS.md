@@ -208,3 +208,6 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
 - **2026-08-31** (daily session 24): Quiet hold #6 — branch current, QA green. No changes.
   Last day of August: the terugleverkosten refresh is due ±sep 8. All 6 human blockers
   still open (day 24).
+- **2026-09-01** (daily session 25): Quiet hold #7 — branch current, QA green. September has
+  started: the monthly terugleverkosten refresh runs ±sep 8 as planned. All 6 human blockers
+  still open (day 25).
