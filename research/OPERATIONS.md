@@ -221,3 +221,7 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   Terugleverkosten refresh in ~3 days. All 6 human blockers still open (day 29).
 - **2026-09-06** (daily session 30): Quiet hold #12 — branch current, QA green. No changes.
   Terugleverkosten refresh in ~2 days. All 6 human blockers still open (day 30).
+- **2026-09-07** (daily session 31): Quiet hold #13 — branch current, QA green. No changes.
+  TOMORROW: terugleverkosten data refresh (verify supplier tariffs, update peildatum on
+  terugleverkosten-per-leverancier.html + check ISDE budget status). All 6 human blockers
+  still open (day 31).
