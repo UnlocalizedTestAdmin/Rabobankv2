@@ -225,3 +225,20 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   TOMORROW: terugleverkosten data refresh (verify supplier tariffs, update peildatum on
   terugleverkosten-per-leverancier.html + check ISDE budget status). All 6 human blockers
   still open (day 31).
+- **2026-09-08** (daily session 32): SEPTEMBER DATA REFRESH + MAJOR CORRECTION.
+  (1) CORRECTION: the ISDE battery-subsidy claim published in August (€250/kWh, max €1.500,
+  "per 1-1-2026") was MISINFORMATION circulating widely on affiliate sites — RVO states
+  explicitly that thuisbatterijen do NOT fall under ISDE 2026 (which covers warmtepompen,
+  zonneboilers, isolatie, ventilatie; budget €500M). Corrected on all 4 affected pages:
+  subsidie-thuisbatterij.html rewritten as a debunk page with a visible rectificatie notice
+  (title/meta/lead/table/warnings/checker JS all updated), FAQ answer + FAQPage JSON-LD
+  fixed, zin-of-onzin bullet fixed, beste-thuisbatterijen pitfall #5 + Marstek row fixed,
+  index link text updated. LESSON logged: affiliate-site consensus is not a source for
+  subsidy claims — verify against RVO/official pages (via search snippets of the official
+  domain when egress-blocked). The 0% btw-met-panelen claim and the Prinsjesdag motion were
+  re-checked and still supported (VAT-refund route confirmed as a real alternative);
+  Prinsjesdag playbook will verify outcomes against primary reporting before publishing.
+  (2) ROUTINE REFRESH: terugleverkosten page updated to peildatum september 2026 —
+  Eneco lowered from ±€0,18 to ±€0,134/kWh medio 2026; Budget Energie ±€78/jr at 2.500 kWh
+  (staffel); Essent €276 and Vattenfall €215 unchanged; per-kWh range now €0,10–0,18 with
+  movement note. QA green (16 pages). All 6 human blockers still open (day 32).
