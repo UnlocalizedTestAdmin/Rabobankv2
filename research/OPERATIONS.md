@@ -242,3 +242,7 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   Eneco lowered from ±€0,18 to ±€0,134/kWh medio 2026; Budget Energie ±€78/jr at 2.500 kWh
   (staffel); Essent €276 and Vattenfall €215 unchanged; per-kWh range now €0,10–0,18 with
   movement note. QA green (16 pages). All 6 human blockers still open (day 32).
+- **2026-09-09** (daily session 33): Small quality fix — moved the ISDE-mythe warning on
+  thuisbatterij-zin-of-onzin.html out of the "wanneer zin" bullet list (a warning didn't
+  belong there) into its own notice block. QA green (16 pages). Holding until Prinsjesdag
+  playbook execution 17-18 sep. All 6 human blockers still open (day 33).
