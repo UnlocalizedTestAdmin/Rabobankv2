@@ -249,3 +249,6 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
 - **2026-09-10** (daily session 34): Quiet hold — branch current, QA green (16 pages,
   0 problems). No changes. Prinsjesdag playbook executes 17-18 sep. All 6 human blockers
   still open (day 34).
+- **2026-09-11** (daily session 35): Quiet hold — branch current, QA green (16 pages,
+  0 problems). No changes. Prinsjesdag playbook executes 17-18 sep with primary-source
+  verification. All 6 human blockers still open (day 35).
