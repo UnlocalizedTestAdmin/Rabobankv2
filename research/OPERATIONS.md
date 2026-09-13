@@ -33,7 +33,7 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
    - [x] Terugleverkosten per leverancier: vergelijkingstabel (update monthly! — laatst: aug 2026)
    - [x] Dynamisch energiecontract + thuisbatterij: hoe werkt het, voor wie
    - [x] Thuisbatterij subsidie: stand van zaken NL (en BE premies per gewest) — refresh after
-         Prinsjesdag 17 sep 2026 (btw-besluit losse batterijen!)
+         Prinsjesdag 15 sep 2026 (btw-besluit losse batterijen!)
    - [x] Beste thuisbatterijen 2026: vergelijking op €/kWh, garantie, chemie
    - [x] Thuisaccu en verzekering/brandveiligheid: waar je op moet letten
    - [x] Belgische variant-pagina's (premies, digitale meter, capaciteitstarief) — Vlaanderen,
@@ -255,3 +255,14 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
 - **2026-09-12** (daily session 36): Quiet hold — branch current, QA green (16 pages,
   0 problems). No changes. Prinsjesdag playbook executes in 5 days. All 6 human blockers
   still open (day 36).
+- **2026-09-13** (daily session 37): DATE CORRECTION — Prinsjesdag 2026 is **15 september**
+  (third Tuesday; verified against koninklijkhuis.nl official agenda), not "17 september"
+  as this repo had it everywhere. Fixed on subsidie-thuisbatterij.html (table row, warning
+  #2, checker tip), veelgestelde-vragen.html (btw answer), PRINSJESDAG-PLAYBOOK.md (title,
+  context, grep checklist) and the runbook backlog line. Playbook timing adjusted: the
+  15 sep 07:00 UTC session fires before the Belastingplan publishes (~15:15 CEST), so it
+  pre-checks leaks only; the **16 sep session executes the playbook**. Weekend-leak check
+  today found nothing concrete yet: the 10 jun 2026 motion is a request-to-investigate, so
+  scenario C (investigation/postponement, no immediate 0%) is the most likely outcome —
+  still requires primary-source confirmation before publishing. QA green (16 pages).
+  All 6 human blockers still open (day 37).

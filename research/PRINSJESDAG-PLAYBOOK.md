@@ -1,11 +1,16 @@
-# Prinsjesdag-playbook — btw-besluit losse thuisbatterijen (17 sep 2026)
+# Prinsjesdag-playbook — btw-besluit losse thuisbatterijen (15 sep 2026)
 
 Context: the Tweede Kamer motion of 10 June 2026 asked the government to investigate 0% btw
 for standalone home batteries (currently 21%; batteries installed with panels already get 0%).
-The minister promised clarity by Prinsjesdag, **17 September 2026**. This is the niche's
-biggest news moment of the year — the session on or right after that date executes this
-playbook. Verify the actual outcome first (search "Prinsjesdag 2026 btw thuisbatterij
-besluit"); do not publish any scenario without confirmation.
+The minister promised clarity by Prinsjesdag, **15 September 2026** (date verified 13 sep
+against koninklijkhuis.nl — third Tuesday of September; the earlier "17 september" in this
+repo was wrong and has been corrected site-wide). This is the niche's biggest news moment
+of the year. Timing: the daily session fires 07:00 UTC (09:00 CEST) but the Miljoenennota/
+Belastingplan publishes ~15:15 CEST — so the 15 sep session can only pre-check leaks, and
+the **16 sep session executes this playbook**. Verify the actual outcome first (search
+"Prinsjesdag 2026 btw thuisbatterij besluit"); do not publish any scenario without
+confirmation from primary reporting (Rijksoverheid/Belastingplan coverage), never from
+affiliate sites.
 
 ## Pages to touch in every scenario
 1. `subsidie-thuisbatterij.html` — the "Losse batterij" table row + warning #2 ("Wacht je op
@@ -40,5 +45,5 @@ besluit"); do not publish any scenario without confirmation.
 - Keep the "Prinsjesdag" mentions but update them to the new date.
 
 ## Grep checklist (all scenarios)
-`grep -rn "Prinsjesdag\|17 september" site/` — every hit must be updated or consciously kept.
+`grep -rn "Prinsjesdag\|15 september" site/` — every hit must be updated or consciously kept.
 Run `python3 tools/site_check.py` before push (JSON-LD sync check will catch FAQ mismatches).
