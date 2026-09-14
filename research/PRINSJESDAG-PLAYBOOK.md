@@ -12,6 +12,22 @@ the **16 sep session executes this playbook**. Verify the actual outcome first (
 confirmation from primary reporting (Rijksoverheid/Belastingplan coverage), never from
 affiliate sites.
 
+## Pre-Prinsjesdag intelligence (checked 13–14 sep 2026)
+- The decision moment is a **Kamerbrief/onderzoeksuitkomst**: the minister (Klimaat en Groene
+  Groei) must inform the Kamer by Prinsjesdag about the 0%-btw investigation (motie 10 jun).
+  Solar Magazine (trade press): the study puts the cost of scrapping btw at **€1–2 mld**
+  in an optimistic scenario (basisscenario ~600.000 batterijen in 2027); two routes were
+  studied — btw-teruggave (like pre-2023 panels) vs a true nultarief (simpler for consumers,
+  structurally hundreds of millions more expensive). The high price tag makes an unconditional
+  Scenario A less likely; a conditional, postponed, or teruggave-route outcome is plausible.
+- **WARNING**: affiliate sites (thuisbatterij-gids.nl and others) are ALREADY presenting
+  "kabinet stuurt wetsvoorstel, 0% per 1-1-2027" as settled fact. That is the ISDE pattern.
+  Do not source the outcome from any affiliate/installer site. Acceptable sources: search
+  snippets of rijksoverheid.nl / tweedekamer.nl / belastingdienst.nl (has a "Thuisbatterij
+  en btw" page — check it post-besluit), NOS/FD/Solar Magazine reporting that quotes the
+  Kamerbrief or Belastingplan directly. If sources conflict, publish Scenario C language
+  (onderzoek loopt / besluit volgt) — never a premature "het is rond".
+
 ## Pages to touch in every scenario
 1. `subsidie-thuisbatterij.html` — the "Losse batterij" table row + warning #2 ("Wacht je op
    de btw-uitspraak?") + the checker's `nee`-branch tip. Update peildatum to september 2026.

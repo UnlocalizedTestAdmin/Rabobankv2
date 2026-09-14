@@ -266,3 +266,12 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   scenario C (investigation/postponement, no immediate 0%) is the most likely outcome —
   still requires primary-source confirmation before publishing. QA green (16 pages).
   All 6 human blockers still open (day 37).
+- **2026-09-14** (daily session 38): Prinsjesdag-eve intelligence added to the playbook.
+  Trade press (Solar Magazine): the 0%-btw study is a cost analysis — €1–2 mld derving in
+  an optimistic scenario, two routes studied (teruggave vs nultarief); the minister informs
+  the Kamer by Prinsjesdag. No decision exists yet, but affiliate sites already present
+  "wetsvoorstel 0% per 1-1-2027" as fact — ISDE pattern, warning added to the playbook
+  with an approved-sources list (rijksoverheid/tweedekamer/belastingdienst/NOS/FD/Solar
+  Magazine quoting the Kamerbrief). Tomorrow's 07:00 UTC session pre-checks; 16 sep session
+  executes. No site changes today. QA green (16 pages). All 6 human blockers still open
+  (day 38).
