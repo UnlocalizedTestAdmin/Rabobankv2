@@ -281,3 +281,12 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   execute the playbook same-day with approved-sources verification; fallback remains the
   16 sep 07:00 UTC session. Branch current, QA green (16 pages). All 6 human blockers
   still open (day 39).
+- **2026-09-15** (afternoon wake, 17:00 CEST): Playbook execution ATTEMPTED, deferred.
+  Search index has not yet ingested post-15:15 CEST reporting; the recurring claim
+  "kabinet stuurt wetsvoorstel 0% btw per 1-1-2027" traces only to affiliate site
+  thuisbatterij-gids.nl (exact ISDE pattern — treated as unconfirmed), Solar Magazine
+  direct fetch egress-blocked, no NOS/rijksoverheid confirmation indexed. New detail from
+  the cost study surfaced meanwhile: nultarief per 1-1-2027 would cost >€365 mln in 2027,
+  ±€1,5 mld net 2027-2031 basisscenario. Per playbook rule: NO site changes without
+  primary-source confirmation → 16 sep 07:00 UTC session executes with overnight
+  reporting indexed. No site changes; QA green.
