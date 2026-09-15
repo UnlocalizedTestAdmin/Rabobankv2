@@ -275,3 +275,9 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   Magazine quoting the Kamerbrief). Tomorrow's 07:00 UTC session pre-checks; 16 sep session
   executes. No site changes today. QA green (16 pages). All 6 human blockers still open
   (day 38).
+- **2026-09-15** (daily session 39, Prinsjesdag morning): Pre-check per playbook — no leak
+  of the btw-besluit as of 09:00 CEST; the Kamerbrief lands with the Belastingplan ~15:15
+  CEST. Scheduled a one-shot afternoon wake (17:00 CEST, trig_01Wd2n5c1Yk83oU9bjrhoiPx) to
+  execute the playbook same-day with approved-sources verification; fallback remains the
+  16 sep 07:00 UTC session. Branch current, QA green (16 pages). All 6 human blockers
+  still open (day 39).
