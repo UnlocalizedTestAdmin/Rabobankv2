@@ -290,3 +290,17 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   ±€1,5 mld net 2027-2031 basisscenario. Per playbook rule: NO site changes without
   primary-source confirmation → 16 sep 07:00 UTC session executes with overnight
   reporting indexed. No site changes; QA green.
+- **2026-09-16** (daily session 40): PLAYBOOK EXECUTED, scenario-C posture. Post-Prinsjesdag
+  reporting still not indexed (Solar Magazine/rijksoverheid/belastingdienst all egress-
+  blocked for direct fetch; search returns only pre-15-sep coverage + affiliate claims).
+  Belastingdienst page still shows old rules. Published NEW page
+  `btw-thuisbatterij-besluit.html` (17th page): honest wat-staat-vast / wat-circuleert
+  split — confirms motie, kostenstudie (>€365 mln 2027, ±€1,5 mld 2027-31, twee routes),
+  Belastingplan ingediend; explicitly flags the "0% per 1-1-2027" wetsvoorstel claims as
+  UNVERIFIED (affiliate-only sourcing, ISDE lesson cited on-page), plus a per-situation
+  advice table and dubbele-energiebelasting section. Added to index (Nieuw-label) +
+  sitemap (weekly). Updated stale "wordt verwacht" language on subsidie page (table row,
+  warning #2, checker JS) and FAQ btw-answer — all now link to the news page; FAQPage
+  JSON-LD unchanged (no btw question in it). QA green (17 pages). Scheduled 17:00 CEST
+  re-verification wake (trig_01UWSaiFis1Mu2zyzr8Gafhx) to flip the page to the definitive
+  scenario once a primary source is attributable. All 6 human blockers still open (day 40).
