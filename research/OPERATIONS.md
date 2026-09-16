@@ -304,3 +304,7 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   JSON-LD unchanged (no btw question in it). QA green (17 pages). Scheduled 17:00 CEST
   re-verification wake (trig_01UWSaiFis1Mu2zyzr8Gafhx) to flip the page to the definitive
   scenario once a primary source is attributable. All 6 human blockers still open (day 40).
+- **2026-09-16** (17:00 CEST re-verification): Still unverifiable — approved-source search
+  returns only pre-Prinsjesdag coverage; no site changes. Useful stat found for later:
+  only 1 op 4 kopers uses the btw-teruggaveroute (gem. ±€1.460/systeem). 17 sep session
+  retries.
