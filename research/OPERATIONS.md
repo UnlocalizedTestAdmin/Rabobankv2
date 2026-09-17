@@ -308,3 +308,16 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   returns only pre-Prinsjesdag coverage; no site changes. Useful stat found for later:
   only 1 op 4 kopers uses the btw-teruggaveroute (gem. ±€1.460/systeem). 17 sep session
   retries.
+- **2026-09-17** (daily session 41): BTW-BESLUIT PICTURE FIRMED UP — scenario C confirmed
+  by convergence. Post-Prinsjesdag reporting (incl. battery webshops, whose commercial
+  incentive runs OPPOSITE to the affiliate sites) says the nultarief is NOT in the
+  Belastingplan 2027 ("de batterij staat niet in de memorie van toelichting"); this matches
+  the pre-Prinsjesdag signals (€1-2 mld kostenstudie, sector expected doorschuiven, motie
+  was only an onderzoeksverzoek). The "0% per 1-1-2027" claims turn out to be
+  pre-Prinsjesdag speculation by installer/affiliate sites. Battery-specific Kamerbrief
+  still not indexed on rijksoverheid/tweedekamer. Updated btw-thuisbatterij-besluit.html
+  (lead now says nultarief per 1-1-2027 lijkt van de baan; new section exposing the two
+  contradictory commercial narratives and their incentives; advice table de-emphasizes
+  waiting for btw), subsidie page warning #2 + checker JS aligned. Definitive-source
+  confirmation (Kamerbrief/Belastingdienst) still pending — page stays dated and hedged
+  until then. QA green (17 pages). All 6 human blockers still open (day 41).
