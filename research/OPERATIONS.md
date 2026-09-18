@@ -321,3 +321,11 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   waiting for btw), subsidie page warning #2 + checker JS aligned. Definitive-source
   confirmation (Kamerbrief/Belastingdienst) still pending — page stays dated and hedged
   until then. QA green (17 pages). All 6 human blockers still open (day 41).
+- **2026-09-18** (daily session 42): Enriched the dubbele-energiebelasting section of
+  btw-thuisbatterij-besluit.html with the verified mechanism (belaste netstroom +
+  onbelaste zonnestroom vermengen achter de meter → grootverbruikersoplossing uit 2022
+  werkt niet voor huishoudens; Financiën ziet geen eenvoudige oplossing) and the juli-motie
+  Oosterhuis (D66): oplossingsrichtingen verplicht vóór eind 2026. Kamerbrief over het
+  btw-onderzoek nog steeds niet indexeerbaar; scenario-C wording stays. Watch items:
+  Kamerbrief btw + oplossingsrichtingen-brief (due before year-end) + terugleverkosten
+  refresh early Oct. QA green (17 pages). All 6 human blockers still open (day 42).
