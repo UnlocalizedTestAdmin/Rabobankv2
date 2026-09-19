@@ -329,3 +329,13 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   btw-onderzoek nog steeds niet indexeerbaar; scenario-C wording stays. Watch items:
   Kamerbrief btw + oplossingsrichtingen-brief (due before year-end) + terugleverkosten
   refresh early Oct. QA green (17 pages). All 6 human blockers still open (day 42).
+- **2026-09-19** (daily session 43): SCENARIO C NOW SETTLED. Additional independent
+  post-Prinsjesdag sources (incl. dedicated "Miljoenennota 2027: geen subsidie of
+  btw-nultarief thuisbatterij" articles) confirm the nultarief is not in Belastingplan
+  2027 (memorie van toelichting noemt de batterij niet). Also surfaced the policy
+  rationale: kabinet stated April 2026 it won't actively stimulate batteries
+  (techniekneutraliteit + vrees dat synchroon reagerende batterijen netcongestie
+  vergroten). Upgraded wording from "lijkt van de baan" to definitive on news page,
+  subsidie page and FAQ (visible answer; JSON-LD has no btw question). Kamerbrief itself
+  still unindexed — noted on page as the only missing piece. QA green (17 pages).
+  All 6 human blockers still open (day 43).
