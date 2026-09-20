@@ -1,5 +1,15 @@
 # Prinsjesdag-playbook — btw-besluit losse thuisbatterijen (15 sep 2026)
 
+> **STATUS: EXECUTED — scenario C (uitkomst bevestigd 19 sep 2026).** Het nultarief is
+> NIET in het Belastingplan 2027 opgenomen; geen 0% per 1-1-2027. Rationale: kabinet wil
+> techniekneutraal blijven + netcongestievrees (standpunt april 2026), kosten €1–2 mld.
+> Uitgevoerd: nieuwspagina `btw-thuisbatterij-besluit.html` gepubliceerd (16 sep, eerst
+> als eerlijke wat-staat-vast/wat-circuleert-pagina; 17–19 sep aangescherpt naar
+> definitief), subsidie-pagina + FAQ bijgewerkt. Zie OPERATIONS.md sessies 37–43.
+> Dit playbook niet opnieuw uitvoeren. Nog open: Kamerbrief indexering (check terloops),
+> oplossingsrichtingen dubbele energiebelasting (toegezegd vóór eind 2026 — nieuwe
+> nieuwsmoment t.z.t.).
+
 Context: the Tweede Kamer motion of 10 June 2026 asked the government to investigate 0% btw
 for standalone home batteries (currently 21%; batteries installed with panels already get 0%).
 The minister promised clarity by Prinsjesdag, **15 September 2026** (date verified 13 sep

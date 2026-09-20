@@ -46,6 +46,30 @@ Prinsjesdag (btw-besluit), ISDE-budgetstanden en tariefherzieningen.
 
 ---
 
+## KLAAR VOOR VERZENDING — Prinsjesdag-alert (geschreven 20 sep 2026, direct bruikbaar
+## zodra de nieuwsbrief live is; check vóór verzending of de stand nog klopt)
+
+**Onderwerp:** Geen 0% btw op losse thuisbatterijen — dit betekent het voor jou
+
+Het korte nieuws: het btw-nultarief voor losse thuisbatterijen is er op Prinsjesdag NIET
+gekomen. De batterij staat niet in het Belastingplan 2027, dus je betaalt ook in 2027
+gewoon 21% btw op een losse batterij (0% mét nieuwe zonnepanelen blijft bestaan).
+
+Waarom niet? Het zou de schatkist €1–2 miljard kosten, en het kabinet wil de aanschaf
+van batterijen niet actief stimuleren zolang het vreest dat massaal op prijs reagerende
+batterijen het net júist belasten.
+
+Wat betekent dat voor jou?
+- Wachten met kopen "tot de btw eraf gaat" heeft geen zin meer — laat je aankoopmoment
+  bepalen door je eigen rekensom, niet door Den Haag.
+- Verhandel je stroom met je leverancier? Check de btw-teruggaveroute via
+  ondernemerschap (slechts 1 op 4 kopers gebruikt die; gemiddeld ±€1.460 per systeem).
+- Let op verkopers die nog steeds met "subsidie" of "0% komt eraan" schermen.
+
+→ De volledige analyse, met wie wat beweerde en waarom: [link btw-thuisbatterij-besluit]
+
+(±180 woorden, past in het subsidie-alert-sjabloon hierboven.)
+
 ## Nog te doen bij activering
 - [ ] Provider-account (human; gratis tier volstaat tot 1.000+ subscribers)
 - [ ] Signup-blok in site-footer + aparte bedankpagina (Claude, dag zelf)

@@ -339,3 +339,10 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   subsidie page and FAQ (visible answer; JSON-LD has no btw question). Kamerbrief itself
   still unindexed — noted on page as the only missing piece. QA green (17 pages).
   All 6 human blockers still open (day 43).
+- **2026-09-20** (daily session 44): Post-arc cleanup — PRINSJESDAG-PLAYBOOK.md marked
+  EXECUTED (scenario C, do-not-rerun header with outcome summary + remaining watch items);
+  ready-to-send Prinsjesdag news alert (±180 words) added to NIEUWSBRIEF-DRAFTS.md for
+  instant use once the newsletter is live. No site changes; QA green (17 pages).
+  Next dated work: terugleverkosten refresh ±early Oct; watch for Kamerbrief +
+  oplossingsrichtingen dubbele energiebelasting (before year-end). All 6 human blockers
+  still open (day 44).
