@@ -368,3 +368,6 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
 - **2026-09-27** (daily session 51): Quiet hold — branch current, QA green (17 pages,
   0 problems). No changes. Next dated work: terugleverkosten refresh ±early Oct. All 6
   human blockers still open (day 51).
+- **2026-09-28** (daily session 52): Quiet hold — branch current, QA green (17 pages,
+  0 problems). No changes. Terugleverkosten refresh due within days (±early Oct). All 6
+  human blockers still open (day 52).
