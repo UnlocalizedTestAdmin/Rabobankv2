@@ -371,3 +371,13 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
 - **2026-09-28** (daily session 52): Quiet hold — branch current, QA green (17 pages,
   0 problems). No changes. Terugleverkosten refresh due within days (±early Oct). All 6
   human blockers still open (day 52).
+- **2026-09-29** (daily session 53): MONTHLY TERUGLEVERKOSTEN REFRESH (peildatum oktober
+  2026). Eneco sharpened to ±€0,133/kWh (bron citeert €0,13329); Essent staffel bevestigd,
+  band 2.251-2.500 kWh toegevoegd (±€309/jr; 2.000-2.250 blijft ±€276); Vattenfall staffel
+  ±€215 bevestigd + caveat dat staffels voor nieuwe contracten tussentijds (soms wekelijks)
+  wijzigen; Budget Energie ±€78/jr@2.500 unchanged. NEW: "Vooruitblik 2027" section —
+  Vattenfall first mover: 8,15 ct vergoeding − 4,85 ct kosten = netto ±3,3 ct/kWh (±€81 bij
+  2.450 kWh); Essent 2027 nog open; advies: vergelijk op nettovergoeding. Conflicting
+  €120/jr Essent figure in one source ignored (staffelbedrag uit eigen tariefkaart
+  prevails). Index link text updated. QA green (17 pages). All 6 human blockers still
+  open (day 53).
