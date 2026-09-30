@@ -381,3 +381,8 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   €120/jr Essent figure in one source ignored (staffelbedrag uit eigen tariefkaart
   prevails). Index link text updated. QA green (17 pages). All 6 human blockers still
   open (day 53).
+- **2026-09-30** (daily session 54): Quiet hold — branch current, QA green (17 pages,
+  0 problems). October terugleverkosten refresh already done yesterday (session 53).
+  Watching: Kamerbrief btw, oplossingsrichtingen dubbele energiebelasting (due before
+  year-end), Essent 2027-terugleverkosten announcement. All 6 human blockers still open
+  (day 54).
