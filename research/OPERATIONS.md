@@ -386,3 +386,11 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   Watching: Kamerbrief btw, oplossingsrichtingen dubbele energiebelasting (due before
   year-end), Essent 2027-terugleverkosten announcement. All 6 human blockers still open
   (day 54).
+- **2026-10-01** (daily session 55): Monthly battery-price spot-check. Market sources
+  scatter: €400–700/kWh excl installatie, €600–900 à €600–1.000/kWh incl installatie,
+  10 kWh totaal €4.500–8.500. Our "gemiddeld €400–650 incl installatie" FAQ claim was too
+  optimistic as an AVERAGE — reframed (visible + JSON-LD in sync) as sharp-quote benchmark
+  vs marktgemiddelde €600–900, which strengthens the compare-quotes message. Benchmark
+  framing on beste-thuisbatterijen (offerte-checker) and zin-of-onzin (±€500 threshold)
+  left unchanged — those are explicitly "good deal" thresholds. QA green (17 pages).
+  All 6 human blockers still open (day 55).
