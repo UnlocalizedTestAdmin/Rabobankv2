@@ -394,3 +394,10 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   framing on beste-thuisbatterijen (offerte-checker) and zin-of-onzin (±€500 threshold)
   left unchanged — those are explicitly "good deal" thresholds. QA green (17 pages).
   All 6 human blockers still open (day 55).
+- **2026-10-02** (daily session 56): Freshness refresh #1 of 5 — beste-thuisbatterijen.html
+  to peildatum oktober 2026. Prices verified: Marstek Venus E 3.0 now €1.199 voor 5,12 kWh
+  (±€244/kWh, was ±€254 — row updated incl. price point); Sessy ±€2.000/5 kWh (±€400/kWh)
+  and Sigenergy 15 kWh vanaf €9.500 (±€633/kWh) confirm existing tier placement. FAQ
+  plug-in floor aligned to €244. Remaining stale (aug): brandveiligheid, dynamisch-contract,
+  vlaanderen, wallonie-brussel — one per coming session. QA green (17 pages). All 6 human
+  blockers still open (day 56).
