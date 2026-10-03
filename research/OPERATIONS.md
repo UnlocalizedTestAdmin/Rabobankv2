@@ -401,3 +401,10 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   plug-in floor aligned to €244. Remaining stale (aug): brandveiligheid, dynamisch-contract,
   vlaanderen, wallonie-brussel — one per coming session. QA green (17 pages). All 6 human
   blockers still open (day 56).
+- **2026-10-03** (daily session 57): Freshness refresh #2 of 5 — thuisbatterij-vlaanderen.html
+  to peildatum oktober 2026. Capaciteitstarief ±€56,6/kW/jr incl. btw CONFIRMED still
+  current (VREG referentie €53,39 excl.); enriched with per-netgebied range ±€52–60,5
+  (Limburg/Antwerpen laag, West hoog) and corrected billing mechanics: gemiddelde van 12
+  maandpieken met ondergrens 2,5 kW (page previously implied per-month billing on the
+  single peak). Remaining stale (aug): brandveiligheid, dynamisch-contract,
+  wallonie-brussel. QA green (17 pages). All 6 human blockers still open (day 57).
