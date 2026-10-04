@@ -408,3 +408,12 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   maandpieken met ondergrens 2,5 kW (page previously implied per-month billing on the
   single peak). Remaining stale (aug): brandveiligheid, dynamisch-contract,
   wallonie-brussel. QA green (17 pages). All 6 human blockers still open (day 57).
+- **2026-10-04** (daily session 58): Freshness refresh #3 of 5 — thuisbatterij-wallonie-
+  brussel.html to peildatum oktober 2026. Prosumer range updated ±€76–86 → ±€79–98/kWe
+  (RESA nu €84,22, was €85,93; ORES €85,84 bevestigd; meta, tabel en checker JS aligned;
+  6 kWe voorbeeld ±€475–590). NEW: tarif "IMPACT" since jan 2026 — netbeheerder past met
+  slimme meter automatisch de voordeligste van forfait/proportioneel toe (zelf overstappen
+  hoeft niet meer); met batterij + hoog zelfverbruik kan de bijdrage tot enkele tientallen
+  euro's zakken. Battery-case paragraph rewritten accordingly. Remaining stale (aug):
+  brandveiligheid, dynamisch-contract. QA green (17 pages). All 6 human blockers still
+  open (day 58).
