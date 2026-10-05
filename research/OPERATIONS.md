@@ -417,3 +417,11 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   euro's zakken. Battery-case paragraph rewritten accordingly. Remaining stale (aug):
   brandveiligheid, dynamisch-contract. QA green (17 pages). All 6 human blockers still
   open (day 58).
+- **2026-10-05** (daily session 59): Freshness refresh #4 of 5 — dynamisch-contract-
+  thuisbatterij.html to peildatum oktober 2026. Yield ladder updated with the onbalansmarkt
+  tier: day-ahead-only ±€200–280/jr (unchanged, ±7 kWh), MET onbalans-deelname via
+  aggregator-sturing (Zonneplan/Frank) ±€350–600/jr realistic in 2026 (trade-off: regie
+  uit handen), vendor claims now framed as "€600–1.200 voor grote systemen met onbalans-
+  sturing — niet onmogelijk maar best-case". FAQ yield answer (€200–280/€400–700) left as
+  is (consistent as conservative baseline). Remaining stale (aug): brandveiligheid.
+  QA green (17 pages). All 6 human blockers still open (day 59).
