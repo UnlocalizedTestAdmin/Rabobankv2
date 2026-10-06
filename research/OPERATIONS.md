@@ -425,3 +425,12 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   sturing — niet onmogelijk maar best-case". FAQ yield answer (€200–280/€400–700) left as
   is (consistent as conservative baseline). Remaining stale (aug): brandveiligheid.
   QA green (17 pages). All 6 human blockers still open (day 59).
+- **2026-10-06** (daily session 60): Freshness refresh #5 of 5 — brandveiligheid-
+  verzekering.html to peildatum oktober 2026. NEW section "Steeds vaker óók gevraagd
+  (najaar 2026)": IEC 62619-certificaat (stationaire li-ion veiligheidsnorm), eigen groep
+  in de meterkast, werkschakelaar naast de batterij, ≥0,5 m van brandbaar materiaal +
+  ventilatie (soms EI30-omkasting) — consistent across multiple insurer-focused sources.
+  FRESHNESS SWEEP COMPLETE: all 17 pages now at peildatum sep/okt 2026, 0 warnings.
+  Watching: Kamerbrief btw, oplossingsrichtingen dubbele energiebelasting (before
+  year-end), Essent 2027-terugleverkosten; next terugleverkosten refresh ±early Nov.
+  All 6 human blockers still open (day 60).
