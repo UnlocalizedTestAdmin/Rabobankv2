@@ -447,3 +447,12 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   0 problems). No changes. All 6 human blockers still open (day 64).
 - **2026-10-11** (daily session 65): Quiet hold — branch current, QA green (17 pages,
   0 problems). No changes. All 6 human blockers still open (day 65).
+- **2026-10-12** (daily session 66): Weekly watch-item check paid off. Confirmed via
+  Energeia/Solar365: no Kamerbrief yet; kabinet zegde 23 sep toe de Kamer vóór eind 2026
+  te informeren over de dubbele-energiebelasting-verkenning (JA21-motie voor regeling in
+  Belastingplan 2027 was 9 juni verworpen; Oosterhuis-motie juli unaniem aangenomen).
+  NEW stat: per antwoorden op Kamervragen is de dubbele heffing voor de meeste
+  huishoudens ±€5/jaar of minder (single source, caveat noted on page) — added to
+  btw-thuisbatterij-besluit.html dubbele-EB section as anti-fear-marketing context +
+  23-sep toezegging; page date bumped. QA green (17 pages). All 6 human blockers still
+  open (day 66).
