@@ -468,3 +468,13 @@ Each day, in order of priority, pick the top unblocked item, complete it, commit
   0 problems). No changes. All 6 human blockers still open (day 71).
 - **2026-10-18** (daily session 72): Quiet hold — branch current, QA green (17 pages,
   0 problems). No changes. All 6 human blockers still open (day 72).
+- **2026-10-19** (daily session 73): BTW DOSSIER CLOSED — weekly watch check found the
+  Kamerbrief: staatssecretaris De Bat wees het nultarief begin oktober (bronnen: 5 of 6
+  okt) formeel af, redenen EU-btw-regels + netcongestie door synchroon reagerende
+  batterijen. News page lead + slot updated from "van de baan" to definitief (Kamerbrief
+  genoemd); subsidie page aligned. ALSO: Essent 2027-structuur circuleert (via Keuze.nl,
+  peildatum 16 okt): 9,40 ct vergoeding − 6,32 ct kosten = netto 3,08 ct/kWh nieuw
+  jaarcontract — added to terugleverkosten Vooruitblik with single-source caveat;
+  convergence note: grote leveranciers ±3 ct netto. Remaining watch: oplossingsrichtingen
+  dubbele energiebelasting (toegezegd vóór eind 2026); terugleverkosten refresh ±early Nov.
+  QA green (17 pages). All 6 human blockers still open (day 73).
